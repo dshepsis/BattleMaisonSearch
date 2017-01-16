@@ -1,0 +1,1079 @@
+Super Maison Pokemon
+
+# | Pokemon | Nature | Item | Move | Move | Move | Move | EV Spread
+0 | Barbaracle1 | Adamant | BrightPowder | Stone Edge | Razor Shell | Shell Smash | Double Team | Atk/Spd
+1 | Hawlucha1 | Jolly | Salac Berry | Acrobatics | Hi Jump Kick | FeatherDance | Taunt | Atk/Spd
+2 | Carbink1 | Calm | Light Clay | Reflect | Light Screen | Safeguard | Dazzling Gleam | Def/SpD
+3 | Pyroar1 | Timid | Kings Rock | Flamethrower | Hyper Voice | Snarl | Noble Roar | Spd/SpA
+4 | Avalugg1 | Relaxed | Leftovers | Avalanche | Confide | Protect | Toxic | HP/Def
+5 | Tyrantrum1 | Relaxed | Lax Incense | Stealth Rock | Dragon Tail | Double Team | Earthquake | Def/SpD
+6 | Aurorus1 | Calm | Sitrus Berry | Substitute | Thunder Wave | Round | Thunderbolt | HP/SpD
+7 | Talonflame1 | Timid | Charti Berry | Round | Me First | Will-O-Wisp | Flamethrower | Spd/SpA
+8 | Sylveon1 | Calm | Leftovers | Misty Terrain | Tail Whip | Helping Hand | Dazzling Gleam | HP/SpD
+9 | Chesnaught1 | Adamant | Leftovers | Taunt | Spiky Shield | Feint | Wood Hammer | Atk/Def
+10 | Delphox1 | Timid | Petaya Berry | Confide | Psychic | Flamethrower | Round | Spd/SpA
+11 | Greninja1 | Calm | Leftovers | Mat Block | Spikes | Scald | Toxic | Def/SpD
+12 | Gogoat1 | Impish | Yache Berry | Substitute | Horn Leech | Bulk Up | Payback | Def/SpD
+13 | Noivern1 | Timid | Yache Berry | Super Fang | Boomburst | Round | Torment | Spd/SpA
+14 | Florges1 | Sassy | Babiri Berry | Flower Shield | Dazzling Gleam | Energy Ball | Wish | Def/SpD
+15 | Goodra1 | Modest | Lax Incense | Substitute | Muddy Water | Dragon Pulse | Sludge Wave | SpA/SpD
+16 | Trevenant1 | Modest | Wise Glasses | Psychic | Shadow Ball | Energy Ball | Round | SpA/SpD
+17 | Gourgeist1 | Impish | Sitrus Berry | Will-O-Wisp | Trick-or-Treat | Pain Split | Phantom Force | HP/Def
+18 | Clawitzer1 | Calm | BrightPowder | Heal Pulse | Muddy Water | Double Team | Confide | Def/SpD
+19 | Slurpuff1 | Modest | Big Root | Draining Kiss | Cotton Guard | Play Nice | Confide | HP/SpA
+20 | Aromatisse1 | Calm | Lax Incense | Charm | Sweet Kiss | Attract | Draining Kiss | HP/SpD
+52 | Barbaracle2 | Modest | Wise Glasses | AncientPower | Blizzard | Surf | Focus Blast | Def/SpA
+53 | Hawlucha2 | Careful | Leftovers | Toxic | Bounce | Dig | Protect | Def/SpD
+54 | Carbink2 | Bold | Smooth Rock | Toxic | Protect | Sandstorm | Power Gem | Def/SpD
+55 | Pyroar2 | Timid | Heat Rock | Sunny Day | Hyper Voice | Fire Blast | SolarBeam | Spd/SpA
+56 | Avalugg2 | Careful | Apicot Berry | Rest | Curse | Frost Breath | Skull Bash | Def/SpD
+57 | Tyrantrum2 | Impish | Leftovers | Crunch | Charm | Sandstorm | Dragon Claw | Def/SpD
+58 | Aurorus2 | Calm | Leftovers | AncientPower | Hail | Sandstorm | Freeze-Dry | HP/SpD
+59 | Talonflame2 | Timid | Heat Rock | Round | Fire Blast | Sunny Day | SolarBeam | Spd/SpA
+60 | Sylveon2 | Calm | Ganlon Berry | Baton Pass | Calm Mind | Psych Up | Moonblast | Def/SpD
+61 | Chesnaught2 | Adamant | Expert Belt | Dragon Claw | Seed Bomb | Earthquake | Brick Break | Atk/Def
+62 | Delphox2 | Modest | Flame Orb | Role Play | Switcheroo | Mystical Fire | Shadow Ball | Spd/SpA
+63 | Greninja2 | Timid | Damp Rock | Rain Dance | Surf | Round | Ice Beam | Spd/SpA
+64 | Gogoat2 | Quiet | Occa Berry | Surf | Energy Ball | Rock Slide | Grass Knot | Atk/SpA
+65 | Noivern2 | Adamant | Roseli Berry | Dragon Claw | Wild Charge | X-Scissor | Acrobatics | Atk/Spd
+66 | Florges2 | Quiet | Kebia Berry | Misty Terrain | Grassy Terrain | Nature Power | Round | SpA/SpD
+67 | Goodra2 | Careful | Lum Berry | Aqua Tail | Body Slam | Earthquake | Outrage | Atk/SpD
+68 | Trevenant2 | Careful | Leftovers | Toxic | Ingrain | Protect | Phantom Force | Def/SpD
+69 | Gourgeist2 | Impish | Iron Ball | Trick Room | Gyro Ball | Seed Bomb | Explosion | HP/Def/SpD
+70 | Clawitzer2 | Modest | Petaya Berry | Flash Cannon | Scald | Sludge Wave | Round | SpA/SpD
+71 | Slurpuff2 | Quiet | Petaya Berry | Fake Tears | Flamethrower | Dazzling Gleam | Round | SpA/SpD
+72 | Aromatisse2 | Calm | Assault Vest | Round | Psychic | Energy Ball | Dazzling Gleam | SpA/SpD
+104 | Barbaracle3 | Adamant | Expert Belt | Dragon Claw | Earthquake | X-Scissor | Night Slash | Atk/Def
+105 | Hawlucha3 | Adamant | Liechi Berry | Swords Dance | Flying Press | Acrobatics | Steel Wing | Atk/Spd
+106 | Carbink3 | Quiet | Iron Ball | Trick Room | Gyro Ball | Dazzling Gleam | Power Gem | SpA/SpD
+107 | Pyroar3 | Adamant | Lum Berry | Return | Fire Fang | Wild Charge | Crunch | Atk/Spd
+108 | Avalugg3 | Bold | Icy Rock | Hail | Blizzard | Recover | Flash Cannon | Def/SpD
+109 | Tyrantrum3 | Impish | Wide Lens | Horn Drill | Stone Edge | Rest | Sleep Talk | HP/Def
+110 | Aurorus3 | Adamant | Expert Belt | Giga Impact | Earthquake | Stone Edge | Frost Breath | Atk/SpD
+111 | Talonflame3 | Jolly | Focus Sash | Swords Dance | Quick Attack | Flail | Acrobatics | Def/Spd
+112 | Sylveon3 | Modest | Razor Claw | Moonblast | Shadow Ball | Round | Psyshock | SpA/SpD
+113 | Chesnaught3 | Modest | Life Orb | Focus Blast | Energy Ball | Sludge Bomb | Round | Def/SpA
+114 | Delphox3 | Timid | Heat Rock | Sunny Day | SolarBeam | Fire Blast | Psychic | Spd/SpA
+115 | Greninja3 | Jolly | Kings Rock | Water Shuriken | Rock Slide | Grass Knot | U-turn | Atk/Spd
+116 | Gogoat3 | Sassy | Big Root | Horn Leech | Leech Seed | Protect | Payback | HP/Atk
+117 | Noivern3 | Modest | Razor Fang | Air Slash | Dragon Pulse | Flamethrower | Psychic | Spd/SpA
+118 | Florges3 | Modest | Kebia Berry | Calm Mind | Grass Knot | Psychic | Moonblast | SpA/SpD
+119 | Goodra3 | Modest | Damp Rock | Dragon Pulse | Rain Dance | Thunder | Muddy Water | SpA/SpD
+120 | Trevenant3 | Adamant | Choice Band | Horn Leech | Shadow Claw | Earthquake | X-Scissor | HP/Atk
+121 | Gourgeist3 | Modest | Wise Glasses | Shadow Ball | Sludge Bomb | Energy Ball | Flamethrower | Def/SpA
+122 | Clawitzer3 | Jolly | Focus Sash | Crabhammer | Return | U-turn | Flail | Atk/Spd
+123 | Slurpuff3 | Adamant | Kee Berry | Endeavor | Play Rough | Facade | Cotton Guard | Atk/SpD
+124 | Aromatisse3 | Modest | Expert Belt | Flash Cannon | Thunder | Psyshock | Moonblast | SpA/SpD
+156 | Barbaracle4 | Adamant | Razor Claw | Stone Edge | Razor Shell | Cross Chop | Shadow Claw | Atk/Def
+157 | Hawlucha4 | Jolly | Power Herb | Sky Attack | Flying Press | U-turn | Stone Edge | Atk/Spd
+158 | Carbink4 | Quiet | Scope Lens | Explosion | Psychic | Moonblast | Power Gem | Atk/SpA
+159 | Pyroar4 | Modest | White Herb | Overheat | Hyper Voice | Dark Pulse | Round | Spd/SpA
+160 | Avalugg4 | Brave | Iron Ball | Stone Edge | Avalanche | Gyro Ball | Earthquake | Atk/Def
+161 | Tyrantrum4 | Adamant | Choice Band | Crunch | Dragon Claw | Earthquake | Head Smash | Atk/Spd
+162 | Aurorus4 | Modest | Life Orb | Hyper Beam | Flash Cannon | Thunder | Psychic | SpA/SpD
+163 | Talonflame4 | Adamant | Sitrus Berry | Brave Bird | Flare Blitz | Quick Attack | Swords Dance | Atk/Spd
+164 | Sylveon4 | Modest | Big Root | Draining Kiss | Baby-Doll Eyes | Psyshock | Misty Terrain | SpA/SpD
+165 | Chesnaught4 | Adamant | White Herb | Wood Hammer | Hammer Arm | Earthquake | Stone Edge | Atk/Def
+166 | Delphox4 | Modest | White Herb | Overheat | Psychic | Shadow Ball | Psyshock | Spd/SpA
+167 | Greninja4 | Modest | Wide Lens | Hydro Pump | Dark Pulse | Blizzard | Extrasensory | Spd/SpA
+168 | Gogoat4 | Adamant | Choice Band | Earthquake | Leaf Blade | Wild Charge | Brick Break | Atk/Spd
+169 | Noivern4 | Modest | Wide Lens | Dragon Pulse | Hurricane | Flamethrower | Focus Blast | Spd/SpA
+170 | Florges4 | Modest | Lum Berry | Round | Petal Dance | Psychic | Moonblast | SpA/SpD
+171 | Goodra4 | Modest | White Herb | Draco Meteor | Thunder | Blizzard | Fire Blast | SpA/SpD
+172 | Trevenant4 | Quiet | Iron Ball | Trick Room | Focus Blast | Energy Ball | Shadow Ball | Def/SpA
+173 | Gourgeist4 | Adamant | Life Orb | Trick-or-Treat | Phantom Force | Seed Bomb | Rock Slide | HP/Atk
+174 | Clawitzer4 | Modest | Choice Specs | Water Pulse | Dark Pulse | Dragon Pulse | Aura Sphere | Spd/SpA
+175 | Slurpuff4 | Modest | Expert Belt | Dazzling Gleam | Energy Ball | Thunderbolt | Flamethrower | Spd/SpA
+176 | Aromatisse4 | Sassy | Leftovers | Aromatic Mist | Dazzling Gleam | Heal Pulse | Trick Room | HP/SpD
+208 | Venusaur1 | Calm | Big Root | Leech Seed | Toxic | Synthesis | Ingrain | HP/SpD
+209 | Charizard1 | Adamant | Salac Berry | Dragon Claw | Fire Punch | Belly Drum | Shadow Claw | HP/Spd/SpD
+210 | Blastoise1 | Quiet | Zoom Lens | Aqua Ring | Rock Slide | Aqua Tail | Iron Defense | HP/Def/SpD
+211 | Meganium1 | Gentle | Sitrus Berry | Light Screen | Aromatherapy | Swagger | SolarBeam | HP/SpD
+212 | Typhlosion1 | Rash | Passho Berry | Flame Burst | Flamethrower | SolarBeam | Sunny Day | Spd/SpA
+213 | Feraligatr1 | Careful | Lax Incense | Screech | Aqua Jet | Earthquake | Block | HP/SpD
+214 | Sceptile1 | Timid | Focus Sash | Quick Attack | Endeavor | Detect | Leaf Storm | Spd/SpA
+215 | Blaziken1 | Naughty | Salac Berry | Hi Jump Kick | Counter | Flamethrower | Will-O-Wisp | HP/Def/Spd
+216 | Swampert1 | Sassy | Jaboca Berry | Mirror Coat | Counter | Earthquake | Roar | Def/SpD
+217 | Torterra1 | Adamant | Binding Band | Sand Tomb | Seed Bomb | Curse | Synthesis | HP/Atk
+218 | Infernape1 | Jolly | Kings Rock | Fake Out | Encore | Fling | Acrobatics | Atk/Spd
+219 | Empoleon1 | Lax | Sitrus Berry | Yawn | Swords Dance | Aqua Jet | Metal Claw | HP/Def
+220 | Serperior1 | Jolly | Lum Berry | Attract | Leaf Tornado | Dragon Tail | Gastro Acid | Def/Spd/SpD
+221 | Emboar1 | Careful | Chesto Berry | Gyro Ball | Curse | Rest | Sleep Talk | HP/SpD
+222 | Samurott1 | Mild | Splash Plate | Retaliate | Razor Shell | Assurance | Encore | HP/Atk
+223 | Dugtrio1 | Hasty | Focus Sash | Reversal | Attract | Dig | Protect | Atk/Spd
+224 | Marowak1 | Careful | Salac Berry | Substitute | Detect | Earthquake | Swords Dance | HP/SpD
+225 | Medicham1 | Impish | Black Belt | Fake Out | Hi Jump Kick | Bulk Up | Feint | HP/Spd
+226 | Quagsire1 | Impish | Rindo Berry | Rest | Sleep Talk | Toxic | Bulldoze | HP/Def
+227 | Granbull1 | Sassy | Leftovers | Charm | Protect | Retaliate | Payback | HP/Def/SpD
+228 | Jynx1 | Calm | Enigma Berry | Draining Kiss | Mean Look | Lovely Kiss | Attract | HP/Def
+229 | Mr. Mime1 | Timid | Choice Scarf | Trick | Dazzling Gleam | Psychic | Energy Ball | Spd/SpA
+230 | Lanturn1 | Naughty | Salac Berry | Thunder Wave | Volt Switch | Waterfall | Agility | Atk/Spd
+231 | Breloom1 | Brave | Black Belt | Fake Tears | Helping Hand | Mach Punch | Stun Spore | HP/Atk
+232 | Forretress1 | Impish | Occa Berry | Spikes | Struggle Bug | Stealth Rock | Iron Defense | HP/Def
+233 | Skarmory1 | Naive | Lax Incense | Spikes | Stealth Rock | Sky Drop | Whirlwind | HP/Spd
+234 | Absol1 | Careful | Sitrus Berry | Payback | Mean Look | Hone Claws | Baton Pass | HP/Def/SpD
+235 | Whiscash1 | Careful | Chesto Berry | Earthquake | Tickle | Amnesia | Rest | Atk/SpD
+236 | Hariyama1 | Brave | Kings Rock | Feint | Fake Out | Smack Down | Vital Throw | Atk/Def/SpD
+237 | Vespiquen1 | Sassy | Quick Claw | Defend Order | Toxic | Protect | Heal Order | HP/Def/SpD
+238 | Raichu1 | Adamant | Focus Sash | Encore | Thief | Thunder Wave | Discharge | Spd/SpA
+239 | Dewgong1 | Mild | Icy Rock | Icy Wind | Toxic | Rest | Hail | HP/Def
+240 | Manectric1 | Adamant | Life Orb | Crunch | Odor Sleuth | Quick Attack | Wild Charge | Atk/Spd
+241 | Staraptor1 | Hasty | Focus Sash | U-turn | FeatherDance | Quick Attack | Endeavor | Atk/Spd
+242 | Gastrodon1 | Gentle | Damp Rock | Rain Dance | Sludge Bomb | Muddy Water | Counter | SpA/SpD
+243 | Skuntank1 | Naughty | Shuca Berry | Flamethrower | Night Slash | Incinerate | Memento | Atk/Spd
+244 | Sawk1 | Naughty | Black Belt | Low Sweep | Quick Guard | Retaliate | Taunt | Atk/Spd
+245 | Throh1 | Impish | Payapa Berry | Protect | Toxic | Circle Throw | Wide Guard | Atk/Def
+246 | Unfezant1 | Jolly | Enigma Berry | Aerial Ace | U-turn | Razor Wind | Tailwind | HP/Atk/Def
+247 | Vileplume1 | Calm | Persim Berry | Petal Dance | Stun Spore | Teeter Dance | Moonlight | Spd/SpD
+248 | Victreebel1 | Quiet | Payapa Berry | Leaf Tornado | Stockpile | Swallow | Gastro Acid | SpA/SpD
+249 | Electrode1 | Calm | Shuca Berry | Swagger | Light Screen | Charge Beam | Thunder Wave | HP/SpD
+250 | Ludicolo1 | Lax | Leftovers | Leech Seed | Toxic | Giga Drain | Rain Dance | HP/Def/SpA
+251 | Shiftry1 | Brave | Iron Ball | Fling | Razor Leaf | Brick Break | Swords Dance | HP/Atk/SpD
+252 | Exploud1 | Modest | Chople Berry | Fire Blast | Roar | Uproar | Hyper Voice | Def/SpA
+253 | Lopunny1 | Naive | Toxic Orb | Fake Out | Encore | Fling | Dizzy Punch | HP/Spd
+254 | Froslass1 | Timid | Colbur Berry | Hail | Ice Beam | Ominous Wind | Thunderbolt | Spd/SpA
+255 | Lilligant1 | Timid | Persim Berry | Charm | Sleep Powder | Petal Dance | Healing Wish | Spd/SpA
+256 | Darmanitan1 | Naive | Leftovers | Fire Punch | Psychic | Protect | Will-O-Wisp | HP/Spd
+257 | Ambipom1 | Naive | Kings Rock | Fake Out | Fling | Thief | U-turn | Atk/Spd
+258 | Cofagrigus1 | Sassy | Chesto Berry | Night Shade | Will-O-Wisp | Mean Look | Rest | HP/SpD
+259 | Golurk1 | Lonely | Muscle Band | Shadow Punch | Iron Defense | Bulldoze | Heavy Slam | HP/SpD
+260 | Durant1 | Naive | Sitrus Berry | Crunch | Dig | Bug Bite | Metal Sound | HP/Atk/Spd
+261 | Golem1 | Impish | Hard Stone | Stealth Rock | Curse | Gyro Ball | Smack Down | HP/Atk/Def
+262 | Slowbro1 | Bold | Sitrus Berry | Yawn | Psychic | Calm Mind | Water Pulse | HP/Def
+263 | Weezing1 | Impish | Payapa Berry | Pain Split | Explosion | Haze | Will-O-Wisp | HP/Def
+264 | Kangaskhan1 | Adamant | Sitrus Berry | Dizzy Punch | Fake Out | Chip Away | Roar | Atk/Spd
+265 | Tauros1 | Naughty | Liechi Berry | Earthquake | Rock Slide | Endure | Substitute | Atk/Spd
+266 | Spiritomb1 | Calm | Sitrus Berry | Sucker Punch | Pain Split | Toxic | Grudge | HP/SpD
+267 | Cryogonal1 | Timid | Charti Berry | Icy Wind | Ice Beam | Confuse Ray | Light Screen | Def/Spd
+268 | Druddigon1 | Bold | Roseli Berry | Crunch | Scary Face | Glare | Dragon Tail | Atk/Def
+269 | Musharna1 | Mild | Zoom Lens | Hypnosis | Dream Eater | Calm Mind | Helping Hand | Def/SpA/SpD
+270 | Scrafty1 | Naughty | Liechi Berry | Fake Out | Bulk Up | Focus Punch | Substitute | HP/Atk
+271 | Ferrothorn1 | Impish | Leftovers | Iron Head | Thunder Wave | Sandstorm | Ingrain | HP/Def
+272 | Alakazam1 | Timid | TwistedSpoon | Energy Ball | Psychic | Telekinesis | Guard Split | Spd/SpA
+273 | Slowking1 | Calm | Sitrus Berry | Psyshock | Water Pulse | Trick Room | Heal Pulse | SpA/SpD
+274 | Miltank1 | Jolly | Lum Berry | Body Slam | Helping Hand | Milk Drink | Heal Bell | HP/Spd
+275 | Altaria1 | Calm | Sitrus Berry | Flamethrower | Cotton Guard | Dragon Pulse | Roost | HP/SpD
+276 | Toxicroak1 | Lonely | Payapa Berry | Fake Out | Brick Break | Sucker Punch | Taunt | Atk/Spd
+277 | Gothitelle1 | Sassy | Chesto Berry | Fake Tears | Psychic | Rest | Calm Mind | HP/Def/Spd
+278 | Reuniclus1 | Bold | Kee Berry | Psychic | Energy Ball | Recover | Wonder Room | HP/Def/SpA
+279 | Bisharp1 | Lax | Sitrus Berry | Night Slash | Metal Claw | Taunt | Metal Burst | HP/Def
+280 | Abomasnow1 | Impish | Leftovers | Frost Breath | Icy Wind | Leech Seed | Ingrain | HP/Def/SpD
+281 | Nidoqueen1 | Relaxed | Payapa Berry | Chip Away | Swagger | Helping Hand | Flatter | HP/Def/SpD
+282 | Nidoking1 | Naughty | Kings Rock | Bulldoze | Megahorn | Rock Slide | Hone Claws | HP/Atk
+283 | Cradily1 | Bold | Tanga Berry | Round | Gastro Acid | Stockpile | Swallow | Def/SpD
+284 | Armaldo1 | Brave | Chesto Berry | X-Scissor | Rock Blast | Rest | Curse | HP/SpD
+285 | Rampardos1 | Brave | Passho Berry | Rock Slide | Crunch | Curse | Protect | Atk/Def/SpD
+286 | Bastiodon1 | Careful | Enigma Berry | Iron Head | Taunt | Wide Guard | Metal Burst | HP/Atk
+287 | Floatzel1 | Naive | Binding Band | Aqua Tail | Protect | Pursuit | Whirlpool | Atk/Spd
+288 | Mismagius1 | Naive | Colbur Berry | Taunt | Protect | Imprison | Shadow Ball | HP/Spd
+289 | Carracosta1 | Naughty | Sitrus Berry | Aqua Tail | Rock Slide | Shell Smash | Iron Defense | HP/Atk
+290 | Escavalier1 | Brave | Liechi Berry | Megahorn | Quick Guard | Swords Dance | Reversal | HP/Atk
+291 | Accelgor1 | Hasty | Focus Sash | Encore | Bug Buzz | Giga Drain | Me First | Spd/SpA
+292 | Zebstrika1 | Naughty | Shuca Berry | Swagger | Volt Switch | Wild Charge | Pursuit | HP/Atk
+293 | Drifblim1 | Bold | Salac Berry | Calm Mind | Stockpile | Ominous Wind | Baton Pass | Def/SpD
+294 | Seismitoad1 | Rash | Chesto Berry | Round | Rest | Water Pulse | Sludge Wave | Def/SpA/SpD
+295 | Poliwrath1 | Naughty | Sitrus Berry | Ice Beam | Waterfall | Psychic | Work Up | HP/Atk/SpA
+296 | Rapidash1 | Naughty | Passho Berry | Bounce | Flame Charge | Low Kick | Charm | Atk/Spd
+297 | Muk1 | Brave | Black Sludge | Poison Jab | Stockpile | Swallow | Memento | Atk/Def
+298 | Gengar1 | Timid | Focus Sash | Shadow Ball | Dream Eater | Nightmare | Hypnosis | Spd/SpA
+299 | Ampharos1 | Mild | Shuca Berry | Power Gem | Thunder Wave | Discharge | Charge Beam | HP/SpA/SpD
+300 | Politoed1 | Modest | Cell Battery | Waterfall | Encore | Swagger | Bounce | Spd/SpA
+301 | Pinsir1 | Naughty | Persim Berry | Bug Bite | Brick Break | Thrash | Swords Dance | Atk/Spd
+302 | Scizor1 | Brave | Occa Berry | Metal Claw | Night Slash | Aerial Ace | Swords Dance | HP/Def
+303 | Heracross1 | Brave | Black Belt | Aerial Ace | Pursuit | Swords Dance | Brick Break | HP/Atk/Def
+304 | Ursaring1 | Adamant | Chesto Berry | Thrash | Crunch | Rest | Counter | Atk/Def/SpD
+305 | Houndoom1 | Adamant | Charcoal | Incinerate | Flame Charge | Will-O-Wisp | Sucker Punch | Atk/Spd
+306 | Donphan1 | Brave | Metronome | Earthquake | Scary Face | Rollout | Defense Curl | Atk/Def
+307 | Wailord1 | Brave | Chesto Berry | Waterfall | Heavy Slam | Curse | Rest | Atk/Def/SpD
+308 | Claydol1 | Calm | Absorb Bulb | Psychic | Ice Beam | Protect | Calm Mind | HP/SpD
+309 | Bronzong1 | Impish | Sitrus Berry | Hypnosis | Rain Dance | Gyro Ball | Trick Room | HP/Def/SpD
+310 | Drapion1 | Bold | Scope Lens | Night Slash | Taunt | Toxic Spikes | X-Scissor | HP/Def
+311 | Luxray1 | Lonely | Magnet | Wild Charge | Crunch | Captivate | Swagger | Atk/SpD
+312 | Ninetales1 | Modest | Passho Berry | Will-O-Wisp | Hypnosis | Extrasensory | Heat Wave | Spd/SpA
+313 | Machamp1 | Brave | Rawst Berry | DynamicPunch | Payback | Foresight | Wide Guard | HP/Atk
+314 | Shuckle1 | Careful | Binding Band | Power Split | Encore | Gastro Acid | Sand Tomb | HP/SpD
+315 | Roserade1 | Calm | Big Root | Toxic | Leech Seed | Protect | Giga Drain | HP/Def
+316 | Honchkrow1 | Quiet | Kee Berry | Psychic | Dark Pulse | Protect | Nasty Plot | Def/SpA/SpD
+317 | Gigalith1 | Naughty | Rawst Berry | Bulldoze | Rock Blast | Gravity | Curse | HP/Atk/Def
+318 | Conkeldurr1 | Bold | Black Belt | Rock Slide | Force Palm | SmellingSalt | Bulk Up | HP/Def/SpD
+319 | Excadrill1 | Naughty | Soft Sand | Hone Claws | Rock Slide | Drill Run | Iron Defense | Atk/Def
+320 | Krookodile1 | Naughty | BlackGlasses | Crunch | Bulldoze | Taunt | Counter | Atk/Def/SpD
+321 | Steelix1 | Impish | Chesto Berry | Earthquake | Rest | Curse | Stealth Rock | HP/SpD
+322 | Weavile1 | Hasty | Razor Fang | Fake Out | Taunt | Night Slash | Fling | Atk/Spd
+323 | Gliscor1 | Naughty | Razor Fang | Acrobatics | Fling | U-turn | Swords Dance | Atk/Spd
+324 | Zoroark1 | Naive | Focus Sash | Night Slash | Shadow Claw | Taunt | Counter | Atk/Spd
+325 | Mandibuzz1 | Calm | Wacan Berry | Taunt | Flatter | Roost | Toxic | Spd/SpD
+326 | Braviary1 | Adamant | Kings Rock | Rock Slide | Air Slash | Tailwind | Sky Drop | Atk/Def/SpD
+327 | Tentacruel1 | Hasty | Black Sludge | Ice Beam | Sludge Wave | Hex | Toxic Spikes | Spd/SpA
+328 | Aerodactyl1 | Jolly | Choice Scarf | Rock Slide |  |  |  | Atk/Spd
+329 | Porygon21 | Modest | Sitrus Berry | Blizzard | Magic Coat | Lock-On | Zap Cannon | HP/SpA
+330 | Lickilicky1 | Naive | Kee Berry | Thunderbolt | Ice Beam | Me First | Psych Up | HP/Def/SpA
+331 | Yanmega1 | Rash | Cheri Berry | Air Slash | Bug Buzz | Detect | U-turn | SpA/SpD
+332 | Gardevoir1 | Timid | Wide Lens | Hypnosis | Dream Eater | Imprison | Dazzling Gleam | HP/Spd
+333 | Gallade1 | Hasty | Expert Belt | Shadow Sneak | Brick Break | Psycho Cut | Swords Dance | Atk/Spd
+334 | Exeggutor1 | Mild | Petaya Berry | Psyshock | Grass Knot | Light Screen | Synthesis | Spd/SpA/SpD
+335 | Starmie1 | Timid | Sitrus Berry | Psychic | Cosmic Power | Recover | Reflect Type | HP/Spd
+336 | Flygon1 | Naive | Weakness Policy | Earthquake | Dragon Claw | Endure | Fire Blast | Atk/Spd
+337 | Klinklang1 | Impish | Shuca Berry | Gear Grind | Thunder Wave | Screech | Volt Switch | HP/Spd
+338 | Chandelure1 | Modest | Spell Tag | Flamethrower | Confuse Ray | Will-O-Wisp | Hex | HP/Spd/SpA
+339 | Vaporeon1 | Quiet | Quick Claw | Wish | Surf | Helping Hand | Shadow Ball | Def/SpA
+340 | Jolteon1 | Hasty | Magnet | Quick Attack | Thunderbolt | Thunder Wave | Swagger | Spd/SpA
+341 | Flareon1 | Naughty | Focus Sash | Dig | Flail | Work Up | Fire Blast | Atk/SpA
+342 | Espeon1 | Naive | Focus Sash | Yawn | Dream Eater | Calm Mind | Protect | Spd/SpA
+343 | Umbreon1 | Impish | Leftovers | Confuse Ray | Payback | Curse | Moonlight | HP/Def
+344 | Leafeon1 | Impish | Scope Lens | X-Scissor | Leaf Blade | Swords Dance | GrassWhistle | HP/Spd
+345 | Glaceon1 | Rash | Quick Claw | Ice Shard | Blizzard | Mirror Coat | Helping Hand | HP/SpA
+346 | Lucario1 | Modest | Black Belt | Metal Sound | Dark Pulse | Aura Sphere | Heal Pulse | Spd/SpA
+347 | Hippowdon1 | Impish | Soft Sand | Earthquake | Crunch | Yawn | Whirlwind | Atk/Def
+348 | Probopass1 | Calm | Cheri Berry | Smack Down | Volt Switch | Thunder Wave | Magnet Rise | HP/SpD
+349 | Dusknoir1 | Bold | Leftovers | Disable | Will-O-Wisp | Pain Split | Mean Look | HP/Def
+350 | Mienshao1 | Naive | Salac Berry | U-turn | Endure | Calm Mind | Baton Pass | HP/Spd
+351 | Beartic1 | Brave | Sitrus Berry | Shadow Claw | Stone Edge | Avalanche | Bulk Up | Atk/SpD
+352 | Bouffalant1 | Adamant | Silk Scarf | Head Charge | Pursuit | Scary Face | Aerial Ace | HP/Atk
+353 | Aggron1 | Impish | Focus Sash | Protect | Roar | Stealth Rock | Metal Burst | HP/SpD
+354 | Walrein1 | Calm | Chesto Berry | Frost Breath | Snore | Stockpile | Rest | Def/SpD
+355 | Mamoswine1 | Adamant | Passho Berry | Double Hit | Earthquake | Ice Shard | Stealth Rock | Atk/Spd/SpD
+356 | Lapras1 | Quiet | Damp Rock | Rain Dance | Thunder | Ice Shard | Confuse Ray | Def/SpA
+357 | Crobat1 | Jolly | Charti Berry | Cross Poison | X-Scissor | Hypnosis | U-turn | Atk/Spd
+358 | Magnezone1 | Rash | Magnet | Metal Sound | Flash Cannon | Thunderbolt | Magnet Rise | HP/SpA
+359 | Rhyperior1 | Brave | Zoom Lens | Payback | Rock Blast | Stone Edge | Protect | HP/Atk/SpD
+360 | Tangrowth1 | Bold | Big Root | Leech Seed | Ingrain | Giga Drain | Toxic | HP/Def/SpD
+361 | Porygon-z1 | Modest | Wise Glasses | Psychic | Shadow Ball | Thunderbolt | Thunder Wave | Spd/SpA
+362 | Vanilluxe1 | Calm | NeverMeltIce | Ice Beam | Frost Breath | Mirror Coat | Icy Wind | HP/SpA/SpD
+363 | Eelektross1 | Quiet | Magnet | Discharge | Gastro Acid | Thunderbolt | Thunder Wave | HP/SpA
+364 | Gyarados1 | Lonely | Muscle Band | Ice Fang | Aqua Tail | Thunder Wave | Dragon Dance | HP/Atk/Spd
+365 | Snorlax1 | Adamant | Sitrus Berry | Return | Wild Charge | Counter | Recycle | Atk/Def
+366 | Kingdra1 | Adamant | Persim Berry | Waterfall | Quash | Protect | Outrage | HP/Atk/Spd
+367 | Blissey1 | Calm | Leftovers | Attract | Round | Heal Pulse | Aromatherapy | Def/SpD
+368 | Milotic1 | Bold | Enigma Berry | Surf | Recover | Mirror Coat | Confuse Ray | HP/Def
+369 | Electivire1 | Naughty | Expert Belt | Low Kick | Dig | Rock Slide | Screech | HP/Atk/Spd
+370 | Magmortar1 | Adamant | Passho Berry | Flame Charge | Earthquake | Confuse Ray | Barrier | HP/Atk
+371 | Haxorus1 | Hasty | Haban Berry | Dual Chop | Earthquake | Roar | Taunt | Atk/Spd
+372 | Togekiss1 | Calm | Sitrus Berry | Encore | Follow Me | Reflect | Dazzling Gleam | HP/SpD
+373 | Volcarona1 | Modest | Power Herb | Fire Spin | Heat Wave | SolarBeam | Whirlwind | HP/Spd
+374 | Arcanine1 | Modest | Charcoal | Flamethrower | SolarBeam | Incinerate | Sunny Day | Spd/SpA
+375 | Archeops1 | Jolly | Sitrus Berry | Quick Attack | Acrobatics | Crunch | U-turn | Atk/Spd
+376 | Dragonite1 | Impish | Custap Berry | Toxic | Thunder Wave | Roost | Rock Slide | HP/Def/SpD
+377 | Tyranitar1 | Impish | Iron Ball | Rock Slide | Stealth Rock | Thunder Wave | Fling | HP/SpD
+378 | Salamence1 | Naughty | Yache Berry | Roost | Scary Face | Dragon Tail | Earthquake | Atk/Def/SpD
+379 | Metagross1 | Naive | Occa Berry | Meteor Mash | Magnet Rise | Zen Headbutt | Agility | Atk/Spd
+380 | Garchomp1 | Jolly | Lax Incense | Earthquake | Protect | Sandstorm | Sand Tomb | HP/Spd
+381 | Hydreigon1 | Rash | Dragon Fang | Dragon Pulse | Earth Power | Surf | Dragon Tail | Atk/Spd
+382 | Slaking1 | Naive | Chople Berry | Earthquake | Brick Break | Rock Slide | Encore | Atk/Spd
+383 | Venusaur2 | Brave | Miracle Seed | Roar | Venoshock | Power Whip | Earthquake | HP/Atk/Def
+384 | Charizard2 | Adamant | Charti Berry | Dragon Claw | Shadow Claw | Rock Slide | Dragon Dance | Atk/Spd
+385 | Blastoise2 | Quiet | Zoom Lens | Hydro Pump | Ice Beam | Mist | Focus Blast | HP/SpA
+386 | Meganium2 | Bold | Chesto Berry | Double Team | Petal Blizzard | Substitute | Rest | HP/Def
+387 | Typhlosion2 | Naive | Wide Lens | Inferno | Focus Blast | Extrasensory | Will-O-Wisp | Spd/SpA
+388 | Feraligatr2 | Adamant | Liechi Berry | Superpower | Aqua Tail | Ice Fang | Dragon Dance | HP/Atk/Spd
+389 | Sceptile2 | Hasty | Scope Lens | Leaf Blade | Night Slash | Earthquake | Swords Dance | Atk/Spd
+390 | Blaziken2 | Adamant | Salac Berry | Blaze Kick | Flame Charge | Endure | Reversal | HP/Atk/Spd
+391 | Swampert2 | Careful | Chesto Berry | Waterfall | Hammer Arm | Rest | Curse | HP/SpD
+392 | Torterra2 | Jolly | Choice Scarf | Rock Slide | Earthquake | Wood Hammer | Tickle | Atk/Spd
+393 | Infernape2 | Mild | Charcoal | Heat Wave | Will-O-Wisp | Grass Knot | Calm Mind | HP/Spd/SpA
+394 | Empoleon2 | Lonely | Muscle Band | Drill Peck | Aqua Jet | Metal Claw | FeatherDance | HP/Atk/SpD
+395 | Serperior2 | Sassy | Sitrus Berry | Leaf Tornado | Hidden Power | Mirror Coat | Captivate | HP/SpA/SpD
+396 | Emboar2 | Brave | Quick Claw | Yawn | Wild Charge | Bulldoze | Heat Crash | Atk/Def/SpD
+397 | Samurott2 | Quiet | Zoom Lens | Blizzard | Giga Impact | Detect | Hydro Pump | Atk/SpA
+398 | Dugtrio2 | Lonely | Choice Band | Protect | Final Gambit | Earthquake | Rock Slide | HP/Spd
+399 | Marowak2 | Brave | Iron Ball | Earthquake | Fling | Brick Break | Detect | HP/Atk
+400 | Medicham2 | Timid | TwistedSpoon | Psychic | Shadow Ball | Energy Ball | Calm Mind | Spd/SpA
+401 | Quagsire2 | Impish | Iron Ball | Earthquake | Stockpile | Fling | Swallow | HP/Def/SpD
+402 | Granbull2 | Modest | Wise Glasses | Snarl | Thunderbolt | Dazzling Gleam | Sludge Bomb | Def/SpA
+403 | Jynx2 | Adamant | Destiny Knot | Ice Punch | Fake Out | Heart Stamp | Taunt | Atk/Spd
+404 | Mr. Mime2 | Brave | Jaboca Berry | Payback | Wide Guard | Confide | Fake Out | Atk/SpD
+405 | Lanturn2 | Calm | Sitrus Berry | Thunder Wave | Charge Beam | Stockpile | Swallow | Def/SpA
+406 | Breloom2 | Jolly | Toxic Orb | Substitute | Seed Bomb | Wake-Up Slap | Spore | Atk/Spd
+407 | Forretress2 | Naughty | Sitrus Berry | Spikes | Earthquake | Magnet Rise | Gyro Ball | HP/Atk
+408 | Skarmory2 | Naughty | Cell Battery | Brave Bird | Steel Wing | Swords Dance | Roar | HP/Spd
+409 | Absol2 | Adamant | Chople Berry | Sucker Punch | Magic Coat | Psycho Cut | Taunt | HP/Atk
+410 | Whiscash2 | Adamant | Soft Sand | Aqua Tail | Earthquake | Zen Headbutt | Dragon Dance | HP/Atk/Def
+411 | Hariyama2 | Careful | Custap Berry | Reversal | Bullet Punch | Protect | Belly Drum | Def/SpD
+412 | Vespiquen2 | Quiet | Insect Plate | Attack Order | Power Gem | Captivate | Confuse Ray | HP/SpA
+413 | Raichu2 | Jolly | Magnet | Brick Break | Electro Ball | Fake Out | Protect | Atk/Spd
+414 | Dewgong2 | Rash | NeverMeltIce | Ice Shard | Signal Beam | Ice Beam | Encore | Spd/SpA
+415 | Manectric2 | Modest | Charcoal | Flamethrower | Overheat | Discharge | Charge | Spd/SpA
+416 | Staraptor2 | Adamant | Choice Scarf | Pursuit | Close Combat | Roost | Final Gambit | HP/Spd
+417 | Gastrodon2 | Careful | Rindo Berry | Waterfall | Amnesia | Curse | Yawn | Atk/Def/SpD
+418 | Skuntank2 | Adamant | Poison Barb | Pursuit | Foul Play | Poison Jab | Taunt | Atk/Spd
+419 | Sawk2 | Naughty | Focus Sash | Earthquake | Payback | Endure | Reversal | Atk/Spd
+420 | Throh2 | Brave | Expert Belt | Revenge | Storm Throw | Protect | Seismic Toss | Atk/Def
+421 | Unfezant2 | Jolly | Power Herb | Giga Impact | Quick Attack | Hypnosis | Sky Attack | Atk/Spd
+422 | Vileplume2 | Modest | Power Herb | SolarBeam | Sludge Bomb | Synthesis | Double Team | HP/SpA
+423 | Victreebel2 | Rash | Safety Goggles | Leaf Storm | Sleep Powder | Stockpile | Encore | Spd/SpA
+424 | Electrode2 | Hasty | Focus Sash | Electro Ball | Taunt | Protect | Explosion | Atk/Spd
+425 | Ludicolo2 | Naughty | Tanga Berry | Fake Out | Grass Knot | Surf | Tickle | HP/Atk/SpA
+426 | Shiftry2 | Rash | Miracle Seed | Fake Out | Extrasensory | SolarBeam | Swagger | Spd/SpA
+427 | Exploud2 | Lonely | Chople Berry | Crunch | Fake Tears | Ice Beam | Giga Impact | Atk/SpA
+428 | Lopunny2 | Jolly | Liechi Berry | Charm | Focus Punch | Substitute | ThunderPunch | Atk/Spd
+429 | Froslass2 | Lonely | Kasib Berry | Ice Shard | Thunder Wave | Hex | Taunt | Atk/Spd
+430 | Lilligant2 | Bold | Big Root | Ingrain | Leech Seed | Toxic | Protect | HP/Def/SpD
+431 | Darmanitan2 | Calm | Luminous Moss | Psychic | Heat Wave | Round | Confide | HP/SpD
+432 | Ambipom2 | Timid | Focus Sash | Grass Knot | Thunderbolt | Nasty Plot | Counter | Spd/SpA
+433 | Cofagrigus2 | Quiet | Spell Tag | Shadow Ball | Energy Ball | Will-O-Wisp | Nasty Plot | HP/SpA
+434 | Golurk2 | Brave | Wide Lens | Hammer Arm | Rock Slide | Curse | Gyro Ball | Atk/SpD
+435 | Durant2 | Impish | Power Herb | Dig | Iron Defense | Agility | Baton Pass | Def/Spd
+436 | Golem2 | Naughty | Absorb Bulb | Rock Slide | Earthquake | Bulldoze | Autotomize | Atk/Spd
+437 | Slowbro2 | Modest | Quick Claw | Flamethrower | Ice Beam | Slack Off | Water Pulse | Def/SpA
+438 | Weezing2 | Rash | Safety Goggles | Sludge Bomb | Fire Blast | Stockpile | Swallow | HP/SpA
+439 | Kangaskhan2 | Jolly | Salac Berry | Rock Slide | Sucker Punch | Endure | Reversal | Atk/Spd
+440 | Tauros2 | Jolly | Expert Belt | Zen Headbutt | Wild Charge | Swagger | Giga Impact | Atk/Spd
+441 | Spiritomb2 | Brave | Quick Claw | Shadow Sneak | Sucker Punch | Will-O-Wisp | Taunt | HP/Atk
+442 | Cryogonal2 | Hasty | Occa Berry | Ice Shard | Slash | Poison Jab | Haze | Atk/Spd
+443 | Druddigon2 | Lonely | Scope Lens | Dragon Claw | Night Slash | Slash | Hone Claws | HP/Def/SpD
+444 | Musharna2 | Bold | Lum Berry | Shadow Ball | Energy Ball | Psychic | Trick Room | Def/SpA
+445 | Scrafty2 | Jolly | Coba Berry | Hi Jump Kick | Rock Slide | Taunt | Dragon Dance | HP/Spd
+446 | Ferrothorn2 | Careful | Chesto Berry | Rest | Payback | Gyro Ball | Curse | HP/SpD
+447 | Alakazam2 | Timid | Focus Sash | Psych Up | Encore | Protect | Psychic | Spd/SpA
+448 | Slowking2 | Gentle | Kings Rock | Zen Headbutt | Earthquake | Swagger | Psych Up | Atk/SpD
+449 | Miltank2 | Naive | Razor Fang | Body Slam | Fling | Brick Break | Captivate | Atk/Spd
+450 | Altaria2 | Lonely | Snowball | Dragon Claw | Pluck | Steel Wing | Dragon Dance | Atk/Spd
+451 | Toxicroak2 | Modest | Petaya Berry | Focus Blast | Sludge Bomb | Substitute | Protect | Spd/SpA
+452 | Gothitelle2 | Modest | TwistedSpoon | Psyshock | Miracle Eye | Mirror Coat | Tickle | HP/Def/SpA
+453 | Reuniclus2 | Brave | Kings Rock | Rock Slide | Explosion | Gyro Ball | Trick Room | Atk/Def/SpD
+454 | Bisharp2 | Adamant | Chople Berry | Aerial Ace | Low Sweep | Iron Head | Scary Face | HP/Atk
+455 | Abomasnow2 | Lonely | Miracle Seed | Wood Hammer | Brick Break | Double Team | Blizzard | HP/Atk/SpA
+456 | Nidoqueen2 | Mild | Absorb Bulb | Thunderbolt | Hyper Beam | Earth Power | Counter | HP/SpA
+457 | Nidoking2 | Quiet | Black Sludge | Amnesia | Sludge Bomb | Flamethrower | Protect | HP/SpA
+458 | Cradily2 | Brave | Quick Claw | Confuse Ray | Energy Ball | Stone Edge | Earthquake | HP/Atk/SpA
+459 | Armaldo2 | Hasty | Razor Fang | Rock Slide | Earthquake | X-Scissor | Rock Polish | HP/Spd
+460 | Rampardos2 | Naughty | Sitrus Berry | Head Smash | Stone Edge | Hammer Arm | Scary Face | Atk/Spd
+461 | Bastiodon2 | Bold | Chesto Berry | Round | Rest | AncientPower | Iron Defense | Def/SpA
+462 | Floatzel2 | Hasty | Flame Orb | Aqua Jet | Switcheroo | Pursuit | Crunch | Atk/Spd
+463 | Mismagius2 | Timid | Kasib Berry | Shadow Ball | Wonder Room | Grudge | Pain Split | HP/SpD
+464 | Carracosta2 | Rash | Wide Lens | Rock Slide | Swagger | Blizzard | Hydro Pump | HP/SpA
+465 | Escavalier2 | Naughty | Quick Claw | Pursuit | Counter | X-Scissor | Swords Dance | HP/Atk
+466 | Accelgor2 | Modest | Weakness Policy | Energy Ball | Sludge Bomb | Bug Buzz | Endure | Spd/SpA
+467 | Zebstrika2 | Timid | Magnet | Discharge | Thunder Wave | Thunder | Rain Dance | Spd/SpA
+468 | Drifblim2 | Mild | Wide Lens | Hex | Thunderbolt | Dream Eater | Hypnosis | Spd/SpA
+469 | Seismitoad2 | Brave | Iron Ball | Fling | Rock Slide | Poison Jab | Earthquake | Atk/SpD
+470 | Poliwrath2 | Naive | Shell Bell | Brick Break | Waterfall | Hypnosis | Belly Drum | HP/Atk
+471 | Rapidash2 | Hasty | Heat Rock | Will-O-Wisp | Fire Blast | SolarBeam | Sunny Day | Spd/SpA
+472 | Muk2 | Lonely | Toxic Plate | Shadow Sneak | Poison Jab | Acid Armor | Flamethrower | Atk/SpA/SpD
+473 | Gengar2 | Jolly | Expert Belt | Sucker Punch | Fire Punch | Ice Punch | Will-O-Wisp | Atk/Spd
+474 | Ampharos2 | Brave | Lum Berry | Brick Break | ThunderPunch | Screech | Odor Sleuth | HP/Atk/Def
+475 | Politoed2 | Quiet | Damp Rock | Rain Dance | Round | Body Slam | Hydro Pump | SpA/SpD
+476 | Pinsir2 | Lonely | Insect Plate | Feint | X-Scissor | Stone Edge | Bug Bite | Atk/Spd
+477 | Scizor2 | Naughty | Insect Plate | Bullet Punch | X-Scissor | Feint | Agility | HP/Atk
+478 | Heracross2 | Naughty | Salac Berry | Megahorn | Dig | Endure | Reversal | HP/Spd
+479 | Ursaring2 | Jolly | Toxic Orb | Facade | Hammer Arm | Scary Face | Yawn | Atk/Spd
+480 | Houndoom2 | Hasty | Focus Sash | Counter | Flame Charge | Roar | Protect | Atk/Spd
+481 | Donphan2 | Adamant | Focus Sash | Endeavor | Flail | Roar | Giga Impact | Atk/SpD
+482 | Wailord2 | Timid | Quick Claw | Water Spout | Rest | Sleep Talk | Ice Beam | Spd/SpA
+483 | Claydol2 | Impish | Sitrus Berry | Sandstorm | Toxic | Cosmic Power | Explosion | HP/Def
+484 | Bronzong2 | Quiet | Damp Rock | Rain Dance | Light Screen | Charge Beam | Grass Knot | HP/SpA
+485 | Drapion2 | Naive | Shuca Berry | Cross Poison | Crunch | Scary Face | Screech | Atk/Spd
+486 | Luxray2 | Careful | Quick Claw | Charge Beam | Helping Hand | Discharge | Roar | HP/SpD
+487 | Ninetales2 | Timid | Safety Goggles | Heat Wave | Roar | Confuse Ray | Nasty Plot | HP/Spd
+488 | Machamp2 | Brave | Expert Belt | Ice Punch | Cross Chop | Fire Punch | Focus Energy | HP/Atk
+489 | Shuckle2 | Bold | Quick Claw | Power Trick | Encore | Rock Slide | Bug Bite | HP/Def
+490 | Roserade2 | Modest | Occa Berry | Weather Ball | Energy Ball | Natural Gift | Attract | Spd/SpA
+491 | Honchkrow2 | Brave | BlackGlasses | Sucker Punch | Taunt | Pursuit | Protect | Atk/SpD
+492 | Gigalith2 | Naughty | Hard Stone | Iron Defense | Sandstorm | Lock-On | Rock Blast | HP/Def
+493 | Conkeldurr2 | Brave | Iron Ball | Mach Punch | Hammer Arm | Bulk Up | Fling | Atk/SpD
+494 | Excadrill2 | Adamant | Chople Berry | Dig | Metal Sound | Metal Claw | Swords Dance | Atk/Def
+495 | Krookodile2 | Naughty | Roseli Berry | Smack Down | Earthquake | Pursuit | Embargo | Atk/Def
+496 | Steelix2 | Impish | Enigma Berry | Crunch | Curse | Gyro Ball | Screech | HP/Atk
+497 | Weavile2 | Jolly | NeverMeltIce | Ice Shard | Ice Punch | Torment | Protect | Atk/Spd
+498 | Gliscor2 | Impish | Liechi Berry | Agility | Acrobatics | Swords Dance | Baton Pass | HP/Def
+499 | Zoroark2 | Jolly | Expert Belt | Grass Knot | Shadow Ball | Flamethrower | Nasty Plot | Spd/SpA
+500 | Mandibuzz2 | Mild | Roseli Berry | Dark Pulse | Air Slash | Shadow Ball | Nasty Plot | Spd/SpA
+501 | Braviary2 | Naughty | Persim Berry | Thrash | Bulk Up | Superpower | Pluck | Atk/Spd
+502 | Tentacruel2 | Hasty | Mystic Water | Rapid Spin | Poison Jab | Waterfall | Swords Dance | Atk/Spd
+503 | Aerodactyl2 | Naive | Passho Berry | Crunch | Rock Slide | Roost | Sky Drop | Atk/Spd
+504 | Porygon22 | Calm | Petaya Berry | Tri Attack | Psychic | Recycle | Recover | HP/Def/SpD
+505 | Lickilicky2 | Adamant | Chople Berry | Gyro Ball | Rest | Curse | Sleep Talk | HP/Atk/Def/SpD
+506 | Yanmega2 | Modest | Sitrus Berry | Psychic | Bug Buzz | Swagger | Substitute | HP/SpA
+507 | Gardevoir2 | Timid | BrightPowder | Stored Power | Thunderbolt | Calm Mind | Double Team | Spd/SpA
+508 | Gallade2 | Jolly | Scope Lens | Psycho Cut | Leaf Blade | Slash | Protect | Atk/Spd
+509 | Exeggutor2 | Brave | Sitrus Berry | Wood Hammer | Curse | Egg Bomb | Synthesis | Atk/SpD
+510 | Starmie2 | Modest | Mystic Water | Protect | Psychic | Hydro Pump | Rapid Spin | Spd/SpA
+511 | Flygon2 | Naive | Haban Berry | Swagger | Quick Attack | Rock Slide | U-turn | Atk/Spd
+512 | Klinklang2 | Mild | White Herb | Charge Beam | Metal Sound | Flash Cannon | Autotomize | Spd/SpA
+513 | Chandelure2 | Timid | Chesto Berry | Energy Ball | Rest | Heat Wave | Will-O-Wisp | HP/Spd
+514 | Vaporeon2 | Modest | Leftovers | Ice Beam | Hydro Pump | Acid Armor | Aqua Ring | Def/SpA
+515 | Jolteon2 | Timid | Damp Rock | Thunder | Protect | Charm | Rain Dance | Spd/SpA
+516 | Flareon2 | Impish | Charcoal | Will-O-Wisp | Charm | Flame Charge | Protect | HP/Def
+517 | Espeon2 | Timid | Kasib Berry | Psyshock | Grass Knot | Telekinesis | Charm | HP/Spd
+518 | Umbreon2 | Careful | Chople Berry | Payback | Moonlight | Stored Power | Work Up | HP/Atk
+519 | Leafeon2 | Naive | Liechi Berry | Leaf Blade | Giga Impact | Substitute | Yawn | Atk/Spd
+520 | Glaceon2 | Bold | Chesto Berry | Frost Breath | Shadow Ball | Rest | Barrier | HP/Def
+521 | Lucario2 | Jolly | Focus Sash | Close Combat | Hone Claws | Endure | Reversal | Atk/Spd
+522 | Hippowdon2 | Lonely | Sitrus Berry | Crunch | Rock Slide | Protect | Curse | HP/Atk
+523 | Probopass2 | Bold | Sitrus Berry | Block | Iron Defense | Flash Cannon | Discharge | HP/Def
+524 | Dusknoir2 | Brave | Iron Ball | Shadow Sneak | Fire Punch | Fling | Trick Room | HP/Atk
+525 | Mienshao2 | Jolly | Kings Rock | Fake Out | Fling | Acrobatics | Hi Jump Kick | Atk/Spd
+526 | Beartic2 | Rash | Lax Incense | Hail | Icy Wind | Grass Knot | Blizzard | HP/SpA
+527 | Bouffalant2 | Brave | Chople Berry | Pursuit | Revenge | Retaliate | Swagger | HP/Atk
+528 | Aggron2 | Quiet | Kings Rock | Surf | Flash Cannon | Focus Blast | Round | Def/SpA
+529 | Walrein2 | Calm | Metronome | Ice Ball | Earthquake | Encore | Curse | Atk/SpD
+530 | Mamoswine2 | Brave | Zoom Lens | Stone Edge | Bulldoze | Blizzard | Ice Fang | Atk/Def/SpD
+531 | Lapras2 | Modest | Mystic Water | Surf | Ice Beam | Rest | Sleep Talk | Def/SpA/SpD
+532 | Crobat2 | Timid | Sharp Beak | Air Slash | Shadow Ball | Confuse Ray | Nasty Plot | Spd/SpA
+533 | Magnezone2 | Quiet | Shuca Berry | Charge Beam | Thunder Wave | Flash Cannon | Mirror Coat | HP/SpA
+534 | Rhyperior2 | Lonely | Hard Stone | Rock Wrecker | Rock Polish |  |  | Atk/Spd
+535 | Tangrowth2 | Naughty | Yache Berry | Wring Out | Tickle | Power Whip | Bulldoze | Atk/Spd
+536 | Porygon-z2 | Modest | Choice Specs | Hyper Beam |  |  |  | Spd/SpA
+537 | Vanilluxe2 | Lonely | Occa Berry | Avalanche | Ice Shard | Natural Gift | Giga Impact | HP/Atk
+538 | Eelektross2 | Naughty | Expert Belt | Crunch | Wild Charge | Brick Break | Coil | HP/Atk
+539 | Gyarados2 | Naughty | Chesto Berry | Waterfall | Rest | Bulldoze | Giga Impact | Atk/Spd
+540 | Snorlax2 | Brave | Sitrus Berry | Return | Protect | Crunch | Belly Drum | Atk/Def
+541 | Kingdra2 | Mild | Haban Berry | Dragon Pulse | Waterfall | Ice Beam | Dragon Dance | HP/Atk/SpA
+542 | Blissey2 | Modest | Custap Berry | Charge Beam | Shadow Ball | Grass Knot | Thunder Wave | Def/SpA
+543 | Milotic2 | Quiet | Leftovers | Hydro Pump | Toxic | Attract | Aqua Ring | HP/Def
+544 | Electivire2 | Adamant | Shuca Berry | Fire Punch | Electro Ball | Ice Punch | Protect | HP/Atk/Spd
+545 | Magmortar2 | Modest | Wide Lens | Fire Blast | Flame Burst | Focus Blast | Taunt | Spd/SpA
+546 | Haxorus2 | Naughty | Persim Berry | Outrage | Rock Slide | Counter | Dragon Dance | HP/Def/Spd
+547 | Togekiss2 | Brave | Liechi Berry | ExtremeSpeed | Aerial Ace | Steel Wing | Brick Break | HP/Atk
+548 | Volcarona2 | Timid | Lum Berry | Bug Buzz | Flamethrower | Protect | Calm Mind | Spd/SpA
+549 | Arcanine2 | Naughty | Weakness Policy | ExtremeSpeed | Crunch | Overheat | Roar | Atk/Spd
+550 | Archeops2 | Mild | Enigma Berry | Earthquake | Earth Power | Endeavor | AncientPower | Spd/SpA
+551 | Dragonite2 | Mild | Salac Berry | Dragon Pulse | Ice Beam | Thunderbolt | Safeguard | Spd/SpA
+552 | Tyranitar2 | Hasty | Kings Rock | Rock Slide | Crunch | Ice Beam | Dragon Dance | Atk/Spd
+553 | Salamence2 | Lonely | Expert Belt | Dragon Claw | Zen Headbutt | Rock Slide | Dragon Dance | Atk/Spd/SpD
+554 | Metagross2 | Quiet | Occa Berry | Psychic | Shadow Ball | Meteor Mash | Magnet Rise | HP/Atk/SpA
+555 | Garchomp2 | Hasty | Snowball | Fire Blast | Earth Power | Surf | Sandstorm | Spd/SpA
+556 | Hydreigon2 | Mild | Wide Lens | Focus Blast | Fire Blast | Dragon Rush | Work Up | Atk/Spd/SpA
+557 | Slaking2 | Jolly | Kee Berry | Retaliate | Night Slash | Slack Off | Amnesia | Atk/Spd
+558 | Venusaur3 | Timid | Salac Berry | Energy Ball | Sludge Bomb | Grass Knot | Protect | Spd/SpA
+559 | Charizard3 | Mild | Choice Scarf | Heat Wave | Rock Slide | Air Slash | Crunch | Atk/Spd/SpA
+560 | Blastoise3 | Adamant | Leftovers | Fake Out | Earthquake | Aqua Tail | Avalanche | HP/Atk
+561 | Meganium3 | Adamant | Light Clay | Seed Bomb | Earthquake | Reflect | Light Screen | HP/Atk
+562 | Typhlosion3 | Modest | Choice Scarf | Eruption | Focus Blast | Heat Wave | Extrasensory | Spd/SpA
+563 | Feraligatr3 | Adamant | Lum Berry | Aqua Jet | Waterfall | Earthquake | Ice Punch | HP/Atk
+564 | Sceptile3 | Timid | White Herb | Leaf Storm | Dragon Pulse | Energy Ball | Detect | Spd/SpA
+565 | Blaziken3 | Hardy | Choice Band | Flare Blitz | Shadow Claw | ThunderPunch | Earthquake | Atk/Spd
+566 | Swampert3 | Adamant | Maranga Berry | Earthquake | Avalanche | Waterfall | Stone Edge | HP/Atk
+567 | Torterra3 | Adamant | Custap Berry | Earthquake | Crunch | Seed Bomb | Iron Head | Atk/SpD
+568 | Infernape3 | Hasty | Life Orb | Fake Out | Close Combat | Overheat | Stone Edge | Atk/Spd
+569 | Empoleon3 | Quiet | Lum Berry | Surf | Ice Beam | Signal Beam | Icy Wind | HP/SpA
+570 | Serperior3 | Calm | BrightPowder | Leaf Storm | Substitute | Hyper Beam | Toxic | HP/Def/SpD
+571 | Emboar3 | Adamant | Quick Claw | Flare Blitz | Brick Break | Flame Charge | Earthquake | Atk/Def/SpD
+572 | Samurott3 | Adamant | Custap Berry | Aerial Ace | Waterfall | X-Scissor | Aqua Jet | Atk/Def/SpD
+573 | Dugtrio3 | Jolly | Choice Band | Earthquake | Rock Slide | Reversal | Aerial Ace | Atk/Spd
+574 | Marowak3 | Jolly | Thick Club | Earthquake | Stone Edge | Low Kick | Fire Punch | Atk/Spd
+575 | Medicham3 | Jolly | Expert Belt | Hi Jump Kick | Zen Headbutt | Ice Punch | Bullet Punch | Atk/Spd
+576 | Quagsire3 | Adamant | Rindo Berry | Earthquake | Aqua Tail | Ice Punch | Stone Edge | Atk/SpD
+577 | Granbull3 | Adamant | Sitrus Berry | Double-Edge | Earthquake | Wild Charge | Outrage | Atk/Spd
+578 | Jynx3 | Modest | Expert Belt | Icy Wind | Blizzard | Psychic | Focus Blast | Spd/SpA
+579 | Mr. Mime3 | Bold | Light Clay | Light Screen | Psychic | Reflect | Dazzling Gleam | HP/Def
+580 | Lanturn3 | Modest | Petaya Berry | Surf | Discharge | Thunder Wave | Ice Beam | Def/SpA/SpD
+581 | Breloom3 | Jolly | Focus Sash | Spore | Focus Punch | Rock Slide | Seed Bomb | Atk/Spd
+582 | Forretress3 | Brave | Iron Ball | Gyro Ball | Earthquake | Bug Bite | Explosion | HP/Atk
+583 | Skarmory3 | Jolly | Choice Scarf | Brave Bird | Steel Wing | Night Slash | Rock Slide | Atk/Spd
+584 | Absol3 | Jolly | Scope Lens | Night Slash | Zen Headbutt | Sucker Punch | Superpower | Atk/Spd
+585 | Whiscash3 | Modest | Expert Belt | Earth Power | Surf | Blizzard | Protect | SpA/SpD
+586 | Hariyama3 | Brave | Flame Orb | Fake Out | Close Combat | Detect | Earthquake | Atk/Def
+587 | Vespiquen3 | Impish | Sitrus Berry | Attack Order | Defend Order | Roost | Confuse Ray | HP/Def/SpD
+588 | Raichu3 | Jolly | Focus Sash | ThunderPunch | Reversal | Thunder Wave | Fake Out | Atk/Spd
+589 | Dewgong3 | Mild | Quick Claw | Fake Out | Surf | Ice Beam | Aqua Jet | SpA/SpD
+590 | Manectric3 | Timid | Air Balloon | Thunderbolt | Overheat | Volt Switch | Quick Attack | Spd/SpA
+591 | Staraptor3 | Mild | Choice Band | Close Combat | Brave Bird | U-turn | Giga Impact | Atk/Spd
+592 | Gastrodon3 | Quiet | Leftovers | Sandstorm | Earth Power | Surf | Recover | Def/SpA
+593 | Skuntank3 | Jolly | Life Orb | Taunt | Sucker Punch | Foul Play | Poison Jab | Atk/Spd
+594 | Sawk3 | Jolly | Expert Belt | Close Combat | Payback | Low Sweep | Earthquake | Atk/Spd
+595 | Throh3 | Adamant | Expert Belt | Earthquake | Storm Throw | Payback | Rock Slide | Atk/Def/SpD
+596 | Unfezant3 | Jolly | Power Herb | Sky Attack | Return | Detect | U-turn | Atk/Spd
+597 | Vileplume3 | Modest | Big Root | Double Team | Ingrain | Toxic | Giga Drain | HP/SpA
+598 | Victreebel3 | Modest | Focus Sash | Sunny Day | SolarBeam | Sludge Bomb | Weather Ball | Spd/SpA
+599 | Electrode3 | Timid | Air Balloon | Thunderbolt | Mirror Coat | Signal Beam | Protect | Spd/SpA
+600 | Ludicolo3 | Bold | Leftovers | Rain Dance | Leech Seed | Protect | Giga Drain | Def/SpA/SpD
+601 | Shiftry3 | Hardy | Heat Rock | Sunny Day | SolarBeam | Dark Pulse | Explosion | Def/SpA
+602 | Exploud3 | Adamant | Expert Belt | Earthquake | Brick Break | Ice Punch | Crunch | Atk/Def
+603 | Lopunny3 | Jolly | Chople Berry | Encore | Fake Out | Focus Punch | Mirror Coat | HP/Spd
+604 | Froslass3 | Timid | Icy Rock | Hail | Blizzard | Ice Shard | Shadow Ball | Spd/SpA
+605 | Lilligant3 | Bold | Leftovers | Quiver Dance | Energy Ball | Leech Seed | Protect | HP/Def
+606 | Darmanitan3 | Sassy | Assault Vest | Psychic | Earthquake | Flare Blitz | Overheat | Def/SpD
+607 | Ambipom3 | Jolly | Life Orb | Fake Out | Double Hit | Payback | Brick Break | Atk/Spd
+608 | Cofagrigus3 | Quiet | Maranga Berry | Will-O-Wisp | Shadow Ball | Destiny Bond | Trick Room | HP/SpA
+609 | Golurk3 | Adamant | Lum Berry | DynamicPunch | Shadow Punch | Earthquake | Rock Slide | HP/Atk
+610 | Durant3 | Jolly | Occa Berry | X-Scissor | Iron Head | Rock Slide | Shadow Claw | Atk/Spd
+611 | Golem3 | Jolly | Focus Sash | Rock Slide | Earthquake | Explosion | Autotomize | Atk/Spd
+612 | Slowbro3 | Bold | Leftovers | Psychic | Surf | Slack Off | Amnesia | HP/Def
+613 | Weezing3 | Modest | Black Sludge | Sludge Bomb | Thunder | Fire Blast | Shadow Ball | HP/SpA
+614 | Kangaskhan3 | Jolly | Chople Berry | Fake Out | Double-Edge | Circle Throw | Sucker Punch | Atk/Spd
+615 | Tauros3 | Jolly | Life Orb | Double-Edge | Earthquake | Payback | Giga Impact | Atk/Spd
+616 | Spiritomb3 | Careful | Leftovers | Will-O-Wisp | Shadow Sneak | Swagger | Psych Up | HP/SpD
+617 | Cryogonal3 | Timid | Occa Berry | Icy Wind | Flash Cannon | Blizzard | Sheer Cold | Spd/SpA
+618 | Druddigon3 | Adamant | Quick Claw | Crunch | Dragon Claw | Earthquake | Rock Slide | HP/Atk
+619 | Musharna3 | Modest | Scope Lens | Psychic | Shadow Ball | Energy Ball | Yawn | Def/SpA
+620 | Scrafty3 | Adamant | Muscle Band | Substitute | Payback | Hi Jump Kick | Focus Punch | HP/Atk
+621 | Ferrothorn3 | Brave | Custap Berry | Protect | Payback | Explosion | Gyro Ball | HP/Atk
+622 | Alakazam3 | Timid | Wise Glasses | Psychic | Focus Blast | Signal Beam | Grass Knot | Spd/SpA
+623 | Slowking3 | Modest | Choice Specs | Psychic | Shadow Ball | Signal Beam | Focus Blast | SpA/SpD
+624 | Miltank3 | Adamant | Scope Lens | Dizzy Punch | Fire Punch | ThunderPunch | Ice Punch | Atk/Def
+625 | Altaria3 | Jolly | Power Herb | Dragon Dance | Dragon Rush | Sky Attack | Earthquake | Atk/Spd
+626 | Toxicroak3 | Modest | Focus Sash | Sludge Bomb | Focus Blast | Shadow Ball | Dark Pulse | Spd/SpA
+627 | Gothitelle3 | Modest | Kee Berry | Charm | Safeguard | Psychic | Charge Beam | HP/SpA
+628 | Reuniclus3 | Quiet | Colbur Berry | Calm Mind | Psychic | Focus Blast | Shadow Ball | Def/SpA
+629 | Bisharp3 | Jolly | Chople Berry | Iron Head | Night Slash | Low Sweep | Sucker Punch | Atk/Spd
+630 | Abomasnow3 | Quiet | Focus Sash | Blizzard | Wood Hammer | Focus Blast | Ice Shard | HP/SpA
+631 | Nidoqueen3 | Modest | Black Sludge | Sludge Bomb | Earth Power | Flamethrower | Ice Beam | HP/SpA
+632 | Nidoking3 | Modest | Black Sludge | Earth Power | Sludge Bomb | Protect | Icy Wind | Spd/SpA
+633 | Cradily3 | Relaxed | Leftovers | Sandstorm | Toxic | Protect | Earthquake | HP/Def
+634 | Armaldo3 | Adamant | Life Orb | X-Scissor | Rock Slide | Earthquake | Iron Defense | HP/SpD
+635 | Rampardos3 | Jolly | Choice Scarf | Head Smash | Earthquake | Brick Break | ThunderPunch | Atk/Spd
+636 | Bastiodon3 | Careful | Leftovers | Stone Edge | Fissure | Double Team | Iron Defense | HP/SpD
+637 | Floatzel3 | Hasty | Damp Rock | Surf | Ice Beam | Focus Blast | Rain Dance | Spd/SpA
+638 | Mismagius3 | Timid | Sitrus Berry | Icy Wind | Shadow Ball | Thunderbolt | Destiny Bond | Spd/SpA
+639 | Carracosta3 | Adamant | Damp Rock | Rain Dance | Waterfall | Rock Slide | Earthquake | Atk/Spd
+640 | Escavalier3 | Brave | Life Orb | Megahorn | Iron Defense | Poison Jab | Iron Head | HP/Atk
+641 | Accelgor3 | Timid | Focus Sash | U-turn | Bug Buzz | Focus Blast | Final Gambit | HP/Spd
+642 | Zebstrika3 | Jolly | Air Balloon | Flame Charge | Toxic | Wild Charge | Volt Switch | Atk/Spd
+643 | Drifblim3 | Timid | Wise Glasses | Shadow Ball | Thunderbolt | Icy Wind | Destiny Bond | Def/Spd
+644 | Seismitoad3 | Timid | Damp Rock | Rain Dance | Muddy Water | Earth Power | Sludge Bomb | Spd/SpA
+645 | Poliwrath3 | Adamant | Leftovers | Waterfall | Focus Punch | Encore | Substitute | HP/Atk
+646 | Rapidash3 | Jolly | Focus Sash | Flare Blitz | Poison Jab | Iron Tail | Horn Drill | Atk/Spd
+647 | Muk3 | Brave | Zoom Lens | Gunk Shot | Payback | Shadow Sneak | Curse | HP/Atk
+648 | Gengar3 | Timid | Payapa Berry | Shadow Ball | Energy Ball | Dazzling Gleam | Round | Spd/SpA
+649 | Ampharos3 | Modest | Chesto Berry | Thunder Wave | Charge Beam | Hyper Beam | Rest | HP/SpA
+650 | Politoed3 | Careful | Chesto Berry | Waterfall | Earthquake | Belly Drum | Rest | Atk/SpD
+651 | Pinsir3 | Adamant | Lax Incense | X-Scissor | Superpower | Stone Edge | Giga Impact | Atk/Def
+652 | Scizor3 | Brave | Life Orb | Swords Dance | Bullet Punch | Reversal | U-turn | HP/Atk
+653 | Heracross3 | Jolly | Coba Berry | Megahorn | Stone Edge | Facade | Shadow Claw | Atk/Spd
+654 | Ursaring3 | Adamant | Toxic Orb | Facade | Superpower | Crunch | Protect | HP/Atk
+655 | Houndoom3 | Timid | Air Balloon | Flamethrower | Shadow Ball | Sludge Bomb | Will-O-Wisp | Spd/SpA
+656 | Donphan3 | Brave | Maranga Berry | Earthquake | Gyro Ball | Fire Fang | Thunder Fang | Atk/Def
+657 | Wailord3 | Careful | Leftovers | Waterfall | Avalanche | Aqua Ring | Curse | Def/SpD
+658 | Claydol3 | Modest | Luminous Moss | Earth Power | Psychic | Ally Switch | Ice Beam | SpA/SpD
+659 | Bronzong3 | Adamant | Quick Claw | Iron Head | Zen Headbutt | Earthquake | Explosion | HP/Atk
+660 | Drapion3 | Jolly | Scope Lens | Cross Poison | Night Slash | Fire Fang | Earthquake | Atk/Spd
+661 | Luxray3 | Adamant | White Herb | Thunder Fang | Ice Fang | Superpower | Thunder Wave | HP/Atk
+662 | Ninetales3 | Timid | Wide Lens | Fire Blast | Extrasensory | Hypnosis | Disable | Spd/SpD
+663 | Machamp3 | Jolly | Choice Scarf | DynamicPunch | Ice Punch | Rock Slide | Earthquake | Atk/Spd
+664 | Shuckle3 | Relaxed | Lax Incense | Gyro Ball | Double Team | Substitute | Power Trick | HP/Def
+665 | Roserade3 | Timid | White Herb | Leaf Storm | Sludge Bomb | Hyper Beam | GrassWhistle | Spd/SpA
+666 | Honchkrow3 | Modest | Life Orb | Air Cutter | Dark Pulse | Snatch | Shadow Ball | HP/SpA
+667 | Gigalith3 | Adamant | Custap Berry | Stone Edge | Earthquake | Sandstorm | Explosion | HP/Atk
+668 | Conkeldurr3 | Adamant | Sitrus Berry | Bulk Up | Drain Punch | Payback | Stone Edge | Atk/SpD
+669 | Excadrill3 | Adamant | BrightPowder | Sandstorm | Earthquake | Rock Slide | Poison Jab | Atk/Def/SpD
+670 | Krookodile3 | Adamant | Roseli Berry | Earthquake | Crunch | Stone Edge | Dragon Tail | Atk/SpD
+671 | Steelix3 | Brave | Quick Claw | Gyro Ball | Earthquake | Stone Edge | Explosion | Atk/SpD
+672 | Weavile3 | Jolly | Focus Sash | Fake Out | Ice Punch | Night Slash | Protect | Atk/Spd
+673 | Gliscor3 | Adamant | Expert Belt | Aerial Ace | Earthquake | X-Scissor | Stone Edge | Atk/Def
+674 | Zoroark3 | Jolly | Sitrus Berry | Swords Dance | Night Slash | U-turn | Sucker Punch | Atk/Spd
+675 | Mandibuzz3 | Modest | Sitrus Berry | Nasty Plot | Dark Pulse | Air Slash | Incinerate | HP/Def/SpD
+676 | Braviary3 | Adamant | Choice Scarf | Brave Bird | Return | U-turn | Rock Slide | Atk/Spd
+677 | Tentacruel3 | Modest | Focus Sash | Hydro Pump | Sludge Bomb | Giga Drain | Mirror Coat | HP/SpA
+678 | Aerodactyl3 | Jolly | Expert Belt | Iron Head | Earthquake | Rock Slide | Thunder Fang | Atk/Spd
+679 | Porygon23 | Modest | Choice Specs | Tri Attack | Thunderbolt | Psychic | Ice Beam | HP/SpA
+680 | Lickilicky3 | Careful | Leftovers | Return | Gyro Ball | Curse | Rest | HP/SpD
+681 | Yanmega3 | Modest | Lum Berry | Silver Wind | Air Slash | Detect | Giga Drain | Spd/SpA
+682 | Gardevoir3 | Timid | Lum Berry | Psychic | Shadow Ball | Energy Ball | Dazzling Gleam | Spd/SpA
+683 | Gallade3 | Adamant | Scope Lens | Psycho Cut | Stone Edge | Night Slash | X-Scissor | Atk/SpD
+684 | Exeggutor3 | Modest | Expert Belt | Leaf Storm | Psychic | Sludge Bomb | AncientPower | HP/SpA
+685 | Starmie3 | Timid | Focus Sash | Surf | Psychic | Power Gem | Signal Beam | Spd/SpA
+686 | Flygon3 | Timid | White Herb | Draco Meteor | Earth Power | Flamethrower | Giga Drain | Spd/SpA
+687 | Klinklang3 | Adamant | Occa Berry | Shift Gear | Gear Grind | Volt Switch | Giga Impact | Atk/Spd
+688 | Chandelure3 | Modest | White Herb | Overheat | Shadow Ball | Protect | Will-O-Wisp | HP/SpA
+689 | Vaporeon3 | Modest | Leftovers | Muddy Water | Blizzard | Aqua Ring | Yawn | HP/SpA
+690 | Jolteon3 | Timid | Kings Rock | Thunder | Shadow Ball | Rain Dance | Yawn | Spd/SpA
+691 | Flareon3 | Brave | White Herb | Superpower | Return | Will-O-Wisp | Overheat | HP/Atk
+692 | Espeon3 | Modest | Lum Berry | Psychic | Shadow Ball | Hyper Beam | Grass Knot | Spd/SpA
+693 | Umbreon3 | Impish | Sitrus Berry | Faint Attack | Swagger | Psych Up | Screech | HP/Def
+694 | Leafeon3 | Adamant | Heat Rock | Sunny Day | Leaf Blade | X-Scissor | Synthesis | Atk/Def
+695 | Glaceon3 | Modest | Focus Sash | Hail | Blizzard | Mirror Coat | Hyper Beam | Def/SpA
+696 | Lucario3 | Jolly | Muscle Band | Close Combat | Earthquake | Blaze Kick | Shadow Claw | Atk/Spd
+697 | Hippowdon3 | Adamant | Sitrus Berry | Earthquake | Crunch | Slack Off | Yawn | Atk/SpD
+698 | Probopass3 | Adamant | Scope Lens | Stone Edge | Iron Head | Earthquake | Explosion | Atk/Def
+699 | Dusknoir3 | Sassy | Leftovers | Toxic | Will-O-Wisp | Protect | Double Team | HP/SpD
+700 | Mienshao3 | Jolly | Focus Sash | Low Kick | Fake Out | Hi Jump Kick | U-turn | Atk/Spd
+701 | Beartic3 | Adamant | Sitrus Berry | Swords Dance | Avalanche | Rock Slide | Brick Break | Atk/Def
+702 | Bouffalant3 | Adamant | Sitrus Berry | Swords Dance | Earthquake | Head Charge | Payback | HP/Atk
+703 | Aggron3 | Adamant | Wide Lens | Iron Tail | Dragon Rush | Avalanche | Stone Edge | Atk/Def
+704 | Walrein3 | Modest | Leftovers | Surf | Blizzard | Hail | Signal Beam | HP/SpA
+705 | Mamoswine3 | Adamant | Lax Incense | Hail | Earthquake | Superpower | Fissure | HP/Atk
+706 | Lapras3 | Modest | BrightPowder | Surf | Ice Beam | Thunderbolt | Psychic | HP/SpA
+707 | Crobat3 | Jolly | Razor Claw | Cross Poison | Brave Bird | Zen Headbutt | X-Scissor | Atk/Spd
+708 | Magnezone3 | Modest | BrightPowder | Charge Beam | Flash Cannon | Magnet Rise | Thunder Wave | Def/SpA
+709 | Rhyperior3 | Impish | Focus Sash | Horn Drill | Avalanche | Payback | Counter | HP/Def
+710 | Tangrowth3 | Modest | Heat Rock | Sunny Day | SolarBeam | Synthesis | Wring Out | Def/SpA
+711 | Porygon-z3 | Modest | Expert Belt | Psychic | Ice Beam | Signal Beam | Charge Beam | HP/SpA
+712 | Vanilluxe3 | Modest | Leftovers | Hail | Blizzard | Flash Cannon | Sheer Cold | HP/SpA
+713 | Eelektross3 | Brave | Assault Vest | Brick Break | U-turn | Grass Knot | Wild Charge | HP/Atk
+714 | Gyarados3 | Jolly | Wacan Berry | Dragon Dance | Waterfall | Stone Edge | Earthquake | Atk/Spd
+715 | Snorlax3 | Adamant | Life Orb | Double-Edge | Earthquake | Crunch | Protect | Atk/Def
+716 | Kingdra3 | Modest | Maranga Berry | Rain Dance | Hydro Pump | Dragon Pulse | Ice Beam | HP/Spd/SpA
+717 | Blissey3 | Bold | Leftovers | Thunderbolt | Ice Beam | Counter | Calm Mind | HP/Def
+718 | Milotic3 | Calm | Wide Lens | Hydro Pump | Blizzard | Mirror Coat | Recover | SpA/SpD
+719 | Electivire3 | Modest | Air Balloon | Thunderbolt | Psychic | Focus Blast | Signal Beam | Spd/SpA
+720 | Magmortar3 | Jolly | Passho Berry | Flare Blitz | ThunderPunch | Earthquake | Brick Break | Atk/Spd
+721 | Haxorus3 | Jolly | Choice Band | Outrage | Earthquake | Dragon Claw | Rock Slide | Atk/Spd
+722 | Togekiss3 | Timid | Kings Rock | Grass Knot | Thunder Wave | Air Slash | Shadow Ball | Spd/SpA
+723 | Volcarona3 | Bold | White Herb | Overheat | Quiver Dance | Bug Buzz | Protect | HP/Def
+724 | Arcanine3 | Timid | White Herb | Overheat | Sunny Day | SolarBeam | Dragon Pulse | Spd/SpA
+725 | Archeops3 | Jolly | Choice Band | Aerial Ace | Earthquake | Head Smash | U-turn | Atk/Spd
+726 | Dragonite3 | Adamant | Choice Band | Outrage | Earthquake | Giga Impact | Superpower | Atk/SpD
+727 | Tyranitar3 | Jolly | Chople Berry | Stone Edge | Crunch | Earthquake | Dragon Dance | Atk/Spd
+728 | Salamence3 | Jolly | Yache Berry | Draco Meteor | Dragon Rush | Earthquake | Brick Break | Atk/Spd
+729 | Metagross3 | Adamant | Occa Berry | Earthquake | Meteor Mash | Bullet Punch | Explosion | HP/Atk/SpD
+730 | Garchomp3 | Adamant | Choice Scarf | Outrage | Earthquake | Fire Fang | Crunch | Atk/Spd
+731 | Hydreigon3 | Timid | White Herb | Draco Meteor | Taunt | Earth Power | Flamethrower | Spd/SpA
+732 | Slaking3 | Adamant | Choice Band | Giga Impact | Shadow Claw | Hammer Arm | Earthquake | HP/Atk
+733 | Venusaur4 | Bold | Black Sludge | Leech Seed | Substitute | Sludge Bomb | Protect | HP/SpD
+734 | Charizard4 | Modest | Assault Vest | Heat Wave | Air Slash | Dragon Pulse | Focus Blast | Spd/SpA
+735 | Blastoise4 | Adamant | Custap Berry | Yawn | Waterfall | Focus Punch | Rock Slide | HP/Atk
+736 | Meganium4 | Bold | Leftovers | Leech Seed | Ingrain | Toxic | Protect | Def/SpD
+737 | Typhlosion4 | Modest | Power Herb | Extrasensory | Lava Plume | Bulldoze | SolarBeam | Spd/SpA
+738 | Feraligatr4 | Adamant | Liechi Berry | Dragon Dance | Waterfall | Crunch | Substitute | Atk/Spd
+739 | Sceptile4 | Calm | Leftovers | Leech Seed | Endeavor | Energy Ball | Toxic | Def/SpD
+740 | Blaziken4 | Hardy | Shuca Berry | Flame Charge | Flare Blitz | ThunderPunch | Low Kick | Atk/Spd
+741 | Swampert4 | Careful | Chesto Berry | Curse | Rest | Earthquake | Waterfall | HP/SpD
+742 | Torterra4 | Hardy | Leftovers | Stockpile | Leech Seed | Earthquake | Protect | HP/SpD
+743 | Infernape4 | Jolly | Focus Sash | Fake Out | Encore | Flare Blitz | Close Combat | Atk/Spd
+744 | Empoleon4 | Calm | Petaya Berry | Surf | Substitute | Blizzard | Whirlpool | HP/SpA
+745 | Serperior4 | Modest | Choice Specs | Leaf Storm |  |  |  | Spd/SpA
+746 | Emboar4 | Timid | Salac Berry | Substitute | Flamethrower | Focus Blast | Scald | Spd/SpA
+747 | Samurott4 | Modest | Salac Berry | Hydro Pump | Ice Beam | Grass Knot | Protect | Def/SpA/SpD
+748 | Dugtrio4 | Jolly | BrightPowder | Toxic | Dig | Substitute | Sandstorm | Atk/Spd
+749 | Marowak4 | Jolly | Thick Club | Earthquake | Outrage | Detect | Rock Slide | Atk/Spd
+750 | Medicham4 | Adamant | Life Orb | Hi Jump Kick | Psycho Cut | Fake Out | Detect | Atk/Spd
+751 | Quagsire4 | Careful | Leftovers | Curse | Amnesia | Earthquake | Waterfall | HP/SpD
+752 | Granbull4 | Adamant | Life Orb | Fire Fang | Ice Fang | Play Rough | Crunch | Atk/Spd
+753 | Jynx4 | Timid | Wide Lens | Lovely Kiss | Blizzard | Psychic | Fake Out | Spd/SpA
+754 | Mr. Mime4 | Modest | Babiri Berry | Shadow Ball | Signal Beam | Dazzling Gleam | Psychic | Spd/SpA
+755 | Lanturn4 | Bold | Chesto Berry | Stockpile | Rest | Charge Beam | Ice Beam | Def/SpD
+756 | Breloom4 | Careful | Toxic Orb | Protect | Leech Seed | Substitute | Focus Punch | HP/Def/SpD
+757 | Forretress4 | Careful | Custap Berry | Toxic Spikes | Stealth Rock | Spikes | Explosion | HP/SpD
+758 | Skarmory4 | Careful | Lum Berry | Spikes | Stealth Rock | Whirlwind | Toxic | HP/SpD
+759 | Absol4 | Jolly | BrightPowder | Substitute | Swagger | Punishment | Will-O-Wisp | Atk/Spd
+760 | Whiscash4 | Calm | Leftovers | Rest | Sleep Talk | Fissure | Muddy Water | HP/Def/SpD
+761 | Hariyama4 | Careful | Sitrus Berry | Belly Drum | Brick Break | Ice Punch | Bullet Punch | Def/SpD
+762 | Vespiquen4 | Brave | Custap Berry | Attack Order | U-turn | Aerial Ace | Destiny Bond | HP/Atk
+763 | Raichu4 | Timid | Lum Berry | Encore | Magnet Rise | Thunderbolt | Grass Knot | Spd/SpA
+764 | Dewgong4 | Bold | Salac Berry | Rain Dance | Rest | Surf | Stockpile | HP/Def/SpD
+765 | Manectric4 | Timid | Choice Scarf | Switcheroo | Thunder | Volt Switch | Overheat | Spd/SpA
+766 | Staraptor4 | Jolly | Sitrus Berry | Brave Bird | Double-Edge | Roost | FeatherDance | Atk/Spd
+767 | Gastrodon4 | Bold | Leftovers | Amnesia | Curse | Earthquake | Waterfall | Def/SpD
+768 | Skuntank4 | Brave | Custap Berry | Night Slash | Poison Jab | Fire Blast | Explosion | Atk/Def/SpD
+769 | Sawk4 | Adamant | Life Orb | Close Combat | Earthquake | Stone Edge | Taunt | Atk/Spd
+770 | Throh4 | Brave | Flame Orb | Protect | Earthquake | Storm Throw | Payback | Atk/SpD
+771 | Unfezant4 | Impish | BrightPowder | Detect | FeatherDance | Toxic | Fly | HP/SpD
+772 | Vileplume4 | Modest | Lum Berry | Giga Drain | SolarBeam | Teeter Dance | Sludge Bomb | Spd/SpA
+773 | Victreebel4 | Modest | Life Orb | Weather Ball | SolarBeam | Sludge Bomb | Gastro Acid | Spd/SpA
+774 | Electrode4 | Timid | Damp Rock | Rain Dance | Thunder | Taunt | Light Screen | Spd/SpA
+775 | Ludicolo4 | Modest | Kee Berry | Fake Out | Hydro Pump | Leech Seed | Grass Knot | Spd/SpA
+776 | Shiftry4 | Adamant | Focus Sash | Fake Out | Sucker Punch | Low Kick | Protect | Atk/Def
+777 | Exploud4 | Timid | Life Orb | Icy Wind | Hyper Voice | Focus Blast | Shadow Ball | Spd/SpA
+778 | Lopunny4 | Jolly | Flame Orb | Switcheroo | Mirror Coat | Protect | Dig | HP/Spd
+779 | Froslass4 | Timid | Focus Sash | Blizzard | Icy Wind | Shadow Ball | Destiny Bond | Spd/SpA
+780 | Lilligant4 | Bold | Lum Berry | SolarBeam | Teeter Dance | Charm | Leech Seed | HP/Def/Spd/SpA
+781 | Darmanitan4 | Impish | Choice Scarf | Flare Blitz | Stone Edge | U-turn | Superpower | Atk/Spd
+782 | Ambipom4 | Jolly | Kings Rock | Fling | Taunt | Return | Payback | Atk/Spd
+783 | Cofagrigus4 | Bold | Leftovers | Will-O-Wisp | Toxic | Hex | Calm Mind | HP/SpD
+784 | Golurk4 | Brave | Iron Ball | Hammer Arm | Earthquake | Shadow Punch | Fling | HP/Atk
+785 | Durant4 | Jolly | Focus Sash | Entrainment | X-Scissor | Iron Head | Protect | HP/Spd
+786 | Golem4 | Brave | Iron Ball | Rock Slide | Earthquake | Explosion | Fling | Atk/SpD
+787 | Slowbro4 | Quiet | Leftovers | Psychic | Surf | Blizzard | Trick Room | HP/Def
+788 | Weezing4 | Careful | Chesto Berry | Toxic | Will-O-Wisp | Stockpile | Rest | HP/SpD
+789 | Kangaskhan4 | Jolly | Salac Berry | Fake Out | Endeavor | Return | Substitute | Atk/Spd
+790 | Tauros4 | Careful | Sitrus Berry | Toxic | Protect | Double Team | Earthquake | HP/SpD
+791 | Spiritomb4 | Careful | Custap Berry | Will-O-Wisp | Sucker Punch | Substitute | Pain Split | HP/SpD
+792 | Cryogonal4 | Naive | Focus Sash | Hail | Icy Wind | Blizzard | Explosion | Spd/SpA
+793 | Druddigon4 | Adamant | Choice Band | Outrage | Earthquake | Superpower | Dragon Tail | HP/Atk
+794 | Musharna4 | Relaxed | Chesto Berry | Stored Power | Calm Mind | Shadow Ball | Rest | Def/SpD
+795 | Scrafty4 | Careful | Leftovers | Bulk Up | Payback | Protect | Drain Punch | HP/SpD
+796 | Ferrothorn4 | Sassy | Leftovers | Curse | Rock Smash | Gyro Ball | Ingrain | HP/SpD
+797 | Alakazam4 | Timid | Choice Specs | Psychic | Focus Blast | Disable | Trick | Spd/SpA
+798 | Slowking4 | Quiet | Lum Berry | Psychic | Surf | Ice Beam | Trick Room | HP/SpD
+799 | Miltank4 | Jolly | Salac Berry | Substitute | Earthquake | Rock Slide | Zen Headbutt | Atk/Spd
+800 | Altaria4 | Calm | Wide Lens | Cotton Guard | Sing | Moonblast | Dream Eater | HP/SpD
+801 | Toxicroak4 | Adamant | Wide Lens | Cross Chop | Sucker Punch | Gunk Shot | Taunt | Atk/Spd
+802 | Gothitelle4 | Modest | BrightPowder | Substitute | Flatter | Psych Up | Psychic | HP/SpA
+803 | Reuniclus4 | Relaxed | Toxic Orb | Trick | Psychic | Focus Blast | Recover | Def/SpD
+804 | Bisharp4 | Adamant | Focus Sash | Taunt | Sucker Punch | Rock Smash | Iron Head | HP/Atk
+805 | Abomasnow4 | Quiet | Occa Berry | Blizzard | Focus Blast | Protect | Ice Shard | HP/SpA
+806 | Nidoqueen4 | Adamant | Black Sludge | Poison Jab | Dragon Tail | Bulldoze | Earthquake | HP/Atk
+807 | Nidoking4 | Adamant | Muscle Band | Earthquake | Poison Jab | Megahorn | Protect | Atk/Spd
+808 | Cradily4 | Sassy | Big Root | Stockpile | Protect | Ingrain | Giga Drain | HP/Def
+809 | Armaldo4 | Adamant | Choice Band | Superpower | Stone Edge | Earthquake | X-Scissor | HP/Atk
+810 | Rampardos4 | Relaxed | Sitrus Berry | Head Smash | Earthquake | Rock Slide | Protect | Atk/SpD
+811 | Bastiodon4 | Brave | Sitrus Berry | Metal Burst | Rock Slide | Wide Guard | Curse | HP/Atk
+812 | Floatzel4 | Hasty | Life Orb | Waterfall | Aqua Jet | Low Kick | Protect | Atk/Spd
+813 | Mismagius4 | Bold | BrightPowder | Power Gem | Protect | Perish Song | Mean Look | HP/Def
+814 | Carracosta4 | Adamant | Weakness Policy | Waterfall | Rock Slide | Aqua Jet | Earthquake | Atk/Spd
+815 | Escavalier4 | Adamant | Custap Berry | Megahorn | Iron Head | Swagger | Reversal | HP/Atk
+816 | Accelgor4 | Timid | Focus Sash | Bug Buzz | Encore | Focus Blast | Protect | Spd/SpA
+817 | Zebstrika4 | Jolly | Focus Sash | Me First | Wild Charge | Thunder Wave | Volt Switch | Atk/Spd
+818 | Drifblim4 | Bold | Custap Berry | Shadow Ball | Thunderbolt | Hypnosis | Destiny Bond | Spd/SpD
+819 | Seismitoad4 | Jolly | Maranga Berry | Brick Break | Poison Jab | Dig | Payback | Atk/Spd
+820 | Poliwrath4 | Adamant | Sitrus Berry | Waterfall | Earthquake | Focus Punch | Circle Throw | HP/Atk
+821 | Rapidash4 | Jolly | Charcoal | Flare Blitz | Megahorn | Double-Edge | Protect | Atk/Spd
+822 | Muk4 | Adamant | Quick Claw | Gunk Shot | Shadow Sneak | Brick Break | Explosion | HP/Atk
+823 | Gengar4 | Timid | Lum Berry | Sludge Bomb | Thunderbolt | Shadow Ball | Destiny Bond | Spd/SpA
+824 | Ampharos4 | Quiet | Zoom Lens | Thunder | Focus Blast | Signal Beam | Power Gem | HP/SpA
+825 | Politoed4 | Modest | Wide Lens | Hydro Pump | Blizzard | Focus Blast | Hypnosis | SpA/SpD
+826 | Pinsir4 | Jolly | Choice Scarf | X-Scissor | Earthquake | Close Combat | Guillotine | Atk/Spd
+827 | Scizor4 | Adamant | Occa Berry | Bug Bite | Aerial Ace | Roost | Bullet Punch | HP/Atk
+828 | Heracross4 | Jolly | Salac Berry | Megahorn | Earthquake | Reversal | Endure | Atk/Spd
+829 | Ursaring4 | Adamant | Quick Claw | Return | Cross Chop | Earthquake | Aerial Ace | HP/Atk
+830 | Houndoom4 | Timid | White Herb | Overheat | Dark Pulse | SolarBeam | Sunny Day | Spd/SpA
+831 | Donphan4 | Adamant | Quick Claw | Earthquake | Stone Edge | Seed Bomb | Fissure | Atk/SpD
+832 | Wailord4 | Modest | Zoom Lens | Hydro Pump | Blizzard | Fissure | Hyper Beam | HP/SpA
+833 | Claydol4 | Adamant | Custap Berry | Earthquake | Zen Headbutt | Rock Slide | Explosion | Atk/SpD
+834 | Bronzong4 | Brave | Lum Berry | Safeguard | Rock Slide | Zen Headbutt | Trick Room | HP/Atk
+835 | Drapion4 | Careful | Razor Claw | Cross Poison | Night Slash | Earthquake | Swords Dance | HP/Atk
+836 | Luxray4 | Careful | Air Balloon | Thunder Fang | Ice Fang | Light Screen | Thunder Wave | HP/SpD
+837 | Ninetales4 | Timid | Passho Berry | Flamethrower | Extrasensory | Energy Ball | Calm Mind | HP/Spd
+838 | Machamp4 | Adamant | Flame Orb | Protect | Earthquake | Close Combat | Payback | Atk/SpD
+839 | Shuckle4 | Relaxed | Leftovers | Toxic | Protect | Sandstorm | Wrap | HP/Def
+840 | Roserade4 | Bold | Black Sludge | Toxic | Protect | Leech Seed | Giga Drain | HP/Def
+841 | Honchkrow4 | Adamant | Life Orb | Night Slash | Drill Peck | Sucker Punch | Thunder Wave | HP/Atk
+842 | Gigalith4 | Quiet | Leftovers | Rock Slide | Stealth Rock | Curse | Earthquake | HP/SpD
+843 | Conkeldurr4 | Brave | Iron Ball | Fling | Rock Slide | Superpower | Mach Punch | Atk/SpD
+844 | Excadrill4 | Adamant | Life Orb | Earthquake | Aerial Ace | Poison Jab | Rock Slide | Atk/Def/SpD
+845 | Krookodile4 | Jolly | Liechi Berry | Earthquake | Pursuit | Low Sweep | Rock Slide | Atk/Spd
+846 | Steelix4 | Relaxed | Iron Ball | Gyro Ball | Payback | Swagger | Curse | Atk/Def
+847 | Weavile4 | Jolly | Focus Sash | Taunt | Ice Punch | Night Slash | Fake Out | Atk/Spd
+848 | Gliscor4 | Jolly | Focus Sash | Earthquake | Acrobatics | U-turn | Counter | HP/Spd
+849 | Zoroark4 | Timid | Focus Band | Protect | Counter | Dark Pulse | Focus Blast | Spd/SpA
+850 | Mandibuzz4 | Careful | Leftovers | Substitute | Swagger | Punishment | Roost | HP/Def/SpD
+851 | Braviary4 | Adamant | Wacan Berry | Brave Bird | Tailwind | Superpower | Giga Impact | Atk/Spd
+852 | Tentacruel4 | Bold | Black Sludge | Surf | Toxic | Venoshock | Protect | HP/Def
+853 | Aerodactyl4 | Jolly | Choice Band | Stone Edge | Aerial Ace | Earthquake | Crunch | Atk/Spd
+854 | Porygon24 | Modest | Lum Berry | Tri Attack | Thunder Wave | Shadow Ball | Ice Beam | HP/SpA
+855 | Lickilicky4 | Adamant | Lax Incense | Body Slam | Power Whip | Earthquake | Explosion | HP/Atk
+856 | Yanmega4 | Modest | Kings Rock | Bug Buzz | Air Slash | Detect | Shadow Ball | Spd/SpA
+857 | Gardevoir4 | Modest | Babiri Berry | Psychic | Moonblast | Focus Blast | Thunderbolt | Spd/SpA
+858 | Gallade4 | Jolly | Lum Berry | Psycho Cut | Close Combat | Heal Pulse | Ally Switch | Atk/Spd
+859 | Exeggutor4 | Brave | Lum Berry | Wood Hammer | Zen Headbutt | Explosion | Trick Room | HP/Atk
+860 | Starmie4 | Timid | Kings Rock | Surf | Psychic | Thunderbolt | Ice Beam | Spd/SpA
+861 | Flygon4 | Adamant | Lum Berry | Earthquake | Outrage | Crunch | Stone Edge | Atk/Spd
+862 | Klinklang4 | Modest | Leftovers | Flash Cannon | Thunderbolt | Protect | Toxic | Spd/SpA
+863 | Chandelure4 | Bold | Leftovers | Calm Mind | Will-O-Wisp | Shadow Ball | Heat Wave | HP/SpD
+864 | Vaporeon4 | Modest | Expert Belt | Surf | Ice Beam | Shadow Ball | Signal Beam | HP/SpA
+865 | Jolteon4 | Timid | Razor Fang | Thunderbolt | Hyper Beam | Fake Tears | Signal Beam | Spd/SpA
+866 | Flareon4 | Adamant | White Herb | Bite | Superpower | Giga Impact | Fire Fang | Atk/SpD
+867 | Espeon4 | Timid | Expert Belt | Psychic | Shadow Ball | Signal Beam | Dazzling Gleam | Spd/SpA
+868 | Umbreon4 | Careful | Chesto Berry | Curse | Trump Card | Payback | Rest | HP/Def
+869 | Leafeon4 | Adamant | Quick Claw | Leaf Blade | X-Scissor | Aerial Ace | Detect | Atk/Def
+870 | Glaceon4 | Modest | BrightPowder | Blizzard | Shadow Ball | Signal Beam | Detect | Def/SpA
+871 | Lucario4 | Hardy | Weakness Policy | Aura Sphere | Dragon Pulse | Stone Edge | ExtremeSpeed | Atk/Spd/SpA
+872 | Hippowdon4 | Sassy | Chesto Berry | Curse | Rest | Earthquake | Crunch | HP/SpD
+873 | Probopass4 | Modest | Life Orb | Flash Cannon | Power Gem | Earth Power | Thunderbolt | SpA/SpD
+874 | Dusknoir4 | Relaxed | Lum Berry | Shadow Sneak | Pain Split | Destiny Bond | Trick Room | HP/SpD
+875 | Mienshao4 | Impish | Muscle Band | Feint | Fake Out | Hi Jump Kick | Wide Guard | HP/Atk
+876 | Beartic4 | Jolly | Assault Vest | Icy Wind | Icicle Crash | Rock Slide | Brick Break | Atk/Spd
+877 | Bouffalant4 | Adamant | Life Orb | Earthquake | Head Charge | Payback | Protect | HP/Atk
+878 | Aggron4 | Brave | Shuca Berry | Metal Burst | Taunt | Earthquake | Shadow Claw | Atk/SpD
+879 | Walrein4 | Bold | Lax Incense | Sheer Cold | Fissure | Rest | Sleep Talk | Def/SpD
+880 | Mamoswine4 | Adamant | Life Orb | Earthquake | Ice Fang | Double-Edge | Stone Edge | HP/Atk
+881 | Lapras4 | Impish | Chesto Berry | Perish Song | Rest | Body Slam | Block | Def/SpD
+882 | Crobat4 | Jolly | Wide Lens | Hypnosis | Aerial Ace | Cross Poison | Taunt | Atk/Spd
+883 | Magnezone4 | Modest | Assault Vest | Thunderbolt | Flash Cannon | Tri Attack | Volt Switch | SpA/SpD
+884 | Rhyperior4 | Brave | Wide Lens | Rock Slide | Hammer Arm | Earthquake | Protect | HP/Atk
+885 | Tangrowth4 | Adamant | Lax Incense | Power Whip | Earthquake | Aerial Ace | Brick Break | Atk/Def
+886 | Porygon-z4 | Timid | Sitrus Berry | Tri Attack | Thunderbolt | Shadow Ball | Recover | Spd/SpA
+887 | Vanilluxe4 | Calm | Maranga Berry | Taunt | Ice Beam | Acid Armor | Mirror Coat | HP/SpD
+888 | Eelektross4 | Bold | Leftovers | Charge Beam | Grass Knot | Flamethrower | Protect | HP/SpD
+889 | Gyarados4 | Careful | Chesto Berry | Dragon Dance | Aqua Tail | Earthquake | Rest | HP/SpD
+890 | Snorlax4 | Careful | Assault Vest | Body Slam | Power-Up Punch | Earthquake | Crunch | HP/SpD
+891 | Kingdra4 | Modest | White Herb | Draco Meteor | Surf | Blizzard | Protect | HP/Spd/SpA
+892 | Blissey4 | Bold | Chople Berry | Toxic | Minimize | Mud Bomb | Softboiled | Def/SpD
+893 | Milotic4 | Impish | Leftovers | Ice Beam | Rest | Sleep Talk | Surf | HP/SpD
+894 | Electivire4 | Jolly | Shuca Berry | ThunderPunch | Fire Punch | Ice Punch | Earthquake | Atk/Spd
+895 | Magmortar4 | Timid | White Herb | Overheat | Psychic | Focus Blast | Protect | Spd/SpA
+896 | Haxorus4 | Jolly | Yache Berry | Dragon Dance | Dragon Claw | Dragon Tail | Earthquake | Atk/Spd
+897 | Togekiss4 | Modest | Expert Belt | Aura Sphere | Air Slash | Heat Wave | Dazzling Gleam | Spd/SpA
+898 | Volcarona4 | Bold | Leftovers | Hurricane | Quiver Dance | Bug Buzz | Heat Wave | HP/Def
+899 | Arcanine4 | Jolly | Sitrus Berry | Close Combat | Flare Blitz | Crunch | ExtremeSpeed | Atk/Spd
+900 | Archeops4 | Jolly | Sitrus Berry | Rock Slide | Earthquake | Aerial Ace | Protect | Atk/Spd
+901 | Dragonite4 | Adamant | Snowball | Dragon Rush | Iron Tail | ExtremeSpeed | Fire Punch | Atk/Spd
+902 | Tyranitar4 | Brave | Focus Sash | Rock Slide | Earthquake | Superpower | Dragon Tail | HP/Atk
+903 | Salamence4 | Jolly | Lum Berry | Outrage | Crunch | Earthquake | Zen Headbutt | Atk/Spd
+904 | Metagross4 | Careful | Toxic Orb | Trick | Meteor Mash | Protect | Earthquake | HP/SpD
+905 | Garchomp4 | Jolly | Focus Sash | Swords Dance | Stone Edge | Earthquake | Dragon Claw | Atk/Spd
+906 | Hydreigon4 | Jolly | Roseli Berry | Dragon Rush | Earthquake | Crunch | Dragon Tail | Atk/Spd
+907 | Slaking4 | Jolly | Life Orb | Return | Night Slash | Gunk Shot | Aerial Ace | Atk/Spd
+908 | Articuno1 | Modest | Icy Rock | Hail | Blizzard | Fly | Roost | HP/SpA
+909 | Zapdos1 | Timid | Magnet | Thunderbolt | Signal Beam | Air Cutter | AncientPower | Spd/SpA
+910 | Moltres1 | Modest | White Herb | Overheat | Air Slash | Tailwind | Will-O-Wisp | Spd/SpA
+911 | Raikou1 | Timid | Shuca Berry | Thunderbolt | Volt Switch | Shadow Ball | Extrasensory | Spd/SpA
+912 | Entei1 | Lonely | Focus Sash | Overheat | Flame Charge | Fire Fang | Stone Edge | Atk/Spd
+913 | Suicune1 | Bold | Chesto Berry | Calm Mind | Surf | Ice Beam | Rest | HP/Def
+914 | Regirock1 | Careful | Leftovers | Sandstorm | Curse | Rock Slide | Drain Punch | HP/SpD
+915 | Regice1 | Modest | Sitrus Berry | Thunderbolt | Ice Beam | Focus Blast | Toxic | HP/SpA
+916 | Registeel1 | Careful | Chesto Berry | Curse | Amnesia | Iron Head | Rest | HP/SpD
+917 | Cobalion1 | Bold | Chesto Berry | Focus Blast | Flash Cannon | Calm Mind | Rest | HP/SpD
+918 | Terrakion1 | Jolly | Expert Belt | Close Combat | Earthquake | Stone Edge | Aerial Ace | Atk/Spd
+919 | Virizion1 | Jolly | Salac Berry | Sacred Sword | Leaf Blade | Taunt | Stone Edge | Atk/Spd
+920 | Tornadus1 | Timid | Life Orb | Hurricane | Grass Knot | Focus Blast | Dark Pulse | Spd/SpA
+921 | Thundurus1 | Bold | Chesto Berry | Thunderbolt | Protect | Toxic | Rest | HP/SpD
+922 | Latias1 | Bold | Lax Incense | Calm Mind | Mist Ball | Dragon Pulse | Recover | HP/Def
+923 | Latios1 | Bold | Lax Incense | Calm Mind | Luster Purge | Dragon Pulse | Recover | HP/Def
+924 | Heatran1 | Modest | Focus Sash | Lava Plume | Earth Power | Flash Cannon | Dark Pulse | HP/SpA
+925 | Cresselia1 | Bold | Chesto Berry | Calm Mind | Psychic | Shadow Ball | Rest | HP/Def
+926 | Landorus1 | Careful | Apicot Berry | Rest | Sleep Talk | Smack Down | Fissure | Def/SpD
+927 | Regigigas1 | Adamant | BrightPowder | Confuse Ray | Double Team | Drain Punch | Payback | HP/Atk
+928 | Articuno2 | Bold | Lum Berry | Sheer Cold | Mind Reader | Ice Shard | Ice Beam | HP/SpD
+929 | Zapdos2 | Bold | BrightPowder | Charge Beam | Heat Wave | Double Team | Roost | HP/SpD
+930 | Moltres2 | Naughty | Power Herb | Flame Charge | Sky Attack | Aerial Ace | Fire Blast | Atk/Spd
+931 | Raikou2 | Timid | Leftovers | Charge Beam | Magnet Rise | Calm Mind | Shadow Ball | Def/Spd
+932 | Entei2 | Bold | Chesto Berry | Calm Mind | Will-O-Wisp | Flamethrower | Rest | HP/Def/SpD
+933 | Suicune2 | Modest | Sitrus Berry | Hydro Pump | Ice Beam | Shadow Ball | Mirror Coat | HP/SpA
+934 | Regirock2 | Adamant | Custap Berry | Stone Edge | Drain Punch | Earthquake | Explosion | HP/Atk
+935 | Regice2 | Timid | Chesto Berry | Thunderbolt | Icy Wind | Ice Beam | Rest | HP/Def/Spd
+936 | Registeel2 | Jolly | Kings Rock | Rock Polish | Earthquake | Iron Head | ThunderPunch | Atk/Spd
+937 | Cobalion2 | Brave | Maranga Berry | Metal Burst | Sacred Sword | Quick Attack | Iron Head | HP/Atk
+938 | Terrakion2 | Adamant | Choice Scarf | Sacred Sword | Earthquake | Stone Edge | Aerial Ace | Atk/Spd
+939 | Virizion2 | Timid | Sitrus Berry | Energy Ball | Focus Blast | Calm Mind | Toxic | Def/Spd
+940 | Tornadus2 | Modest | Yache Berry | Substitute | Double Team | Focus Blast | Hurricane | HP/SpA
+941 | Thundurus2 | Timid | Choice Specs | Thunderbolt | Dark Pulse | Focus Blast | Grass Knot | Spd/SpA
+942 | Latias2 | Timid | White Herb | Draco Meteor | Thunder | Psychic | Mist Ball | Spd/SpA
+943 | Latios2 | Timid | White Herb | Draco Meteor | Thunderbolt | Psychic | Protect | Spd/SpA
+944 | Heatran2 | Modest | White Herb | Overheat | Will-O-Wisp | Flash Cannon | Protect | HP/SpA
+945 | Cresselia2 | Bold | Leftovers | Double Team | Moonlight | Toxic | Protect | HP/SpD
+946 | Landorus2 | Modest | Choice Scarf | Earth Power | Extrasensory | Focus Blast | Grass Knot | Spd/SpA
+947 | Regigigas2 | Quiet | Zoom Lens | Thunder | Toxic | Focus Blast | Confuse Ray | HP/SpA
+948 | Articuno3 | Jolly | Charti Berry | Frost Breath | Reflect | Steel Wing | U-turn | Atk/Spd
+949 | Zapdos3 | Naive | Petaya Berry | Thunder | Light Screen | Rain Dance | Drill Peck | Spd/SpA
+950 | Moltres3 | Timid | Heat Rock | Sunny Day | SolarBeam | Flamethrower | Air Slash | Spd/SpA
+951 | Raikou3 | Timid | Air Balloon | Thunderbolt | Volt Switch | Shadow Ball | Protect | Spd/SpA
+952 | Entei3 | Timid | Choice Scarf | Eruption | Heat Wave | Extrasensory | SolarBeam | Spd/SpA
+953 | Suicune3 | Bold | Leftovers | Surf | Blizzard | Calm Mind | Protect | HP/Def
+954 | Regirock3 | Adamant | Luminous Moss | Ice Punch | Rock Slide | Drain Punch | Earthquake | HP/Atk
+955 | Regice3 | Bold | Leftovers | Charge Beam | Ice Beam | Amnesia | Protect | HP/Def
+956 | Registeel3 | Bold | Leftovers | Amnesia | Iron Defense | Charge Beam | Flash Cannon | HP/SpD
+957 | Cobalion3 | Jolly | Lax Incense | Swagger | Substitute | Psych Up | Iron Head | Atk/Spd
+958 | Terrakion3 | Jolly | Sitrus Berry | Swords Dance | Sacred Sword | Earthquake | Rock Slide | Atk/Spd
+959 | Virizion3 | Jolly | Coba Berry | Leaf Blade | Stone Edge | Sacred Sword | Protect | Atk/Spd
+960 | Tornadus3 | Bold | Chesto Berry | Rest | Air Slash | Dark Pulse | Focus Blast | HP/SpD
+961 | Thundurus3 | Jolly | Sitrus Berry | Wild Charge | U-turn | Crunch | Sky Drop | Atk/Spd
+962 | Latias3 | Timid | Choice Specs | Draco Meteor | Thunderbolt | Psychic | Trick | Spd/SpA
+963 | Latios3 | Timid | Choice Specs | Draco Meteor | Thunder | Psychic | Energy Ball | Spd/SpA
+964 | Heatran3 | Modest | Shuca Berry | Sunny Day | Fire Blast | SolarBeam | Earth Power | HP/SpA
+965 | Cresselia3 | Bold | Lum Berry | Icy Wind | Round | Helping Hand | Swagger | HP/SpD
+966 | Landorus3 | Jolly | Smooth Rock | Sandstorm | Earthquake | Rock Slide | Protect | Atk/Spd
+967 | Regigigas3 | Adamant | Leftovers | Confuse Ray | Drain Punch | Thunder Wave | Rock Slide | HP/Atk
+968 | Articuno4 | Modest | Leftovers | Tailwind | Blizzard | Sky Drop | Protect | Spd/SpA
+969 | Zapdos4 | Timid | Lum Berry | Thunderbolt | Volt Switch | Heat Wave | Detect | Spd/SpA
+970 | Moltres4 | Timid | Charcoal | Heat Wave | Incinerate | Air Slash | Protect | Spd/SpA
+971 | Raikou4 | Timid | Air Balloon | Thunder | Discharge | Reflect | Extrasensory | Spd/SpA
+972 | Entei4 | Adamant | Life Orb | Sacred Fire | Iron Head | Stone Edge | Protect | HP/Atk
+973 | Suicune4 | Timid | Lum Berry | Icy Wind | Surf | Blizzard | Protect | Spd/SpA
+974 | Regirock4 | Jolly | Sitrus Berry | Rock Polish | Rock Slide | Superpower | Explosion | Atk/Spd
+975 | Regice4 | Impish | Zoom Lens | Thunder | Blizzard | Focus Blast | Thunder Wave | HP/SpD
+976 | Registeel4 | Adamant | Leftovers | Toxic | Double Team | Earthquake | Protect | HP/Atk
+977 | Cobalion4 | Jolly | Life Orb | Iron Head | Close Combat | Quick Guard | Protect | Atk/Spd
+978 | Terrakion4 | Jolly | Kings Rock | Bulldoze | Rock Slide | Earthquake | Sacred Sword | Atk/Spd
+979 | Virizion4 | Impish | Chesto Berry | Leaf Blade | Swords Dance | Sacred Sword | Rest | HP/Def
+980 | Tornadus4 | Timid | Damp Rock | Hurricane | Focus Blast | Taunt | Rain Dance | Spd/SpA
+981 | Thundurus4 | Timid | Magnet | Discharge | Focus Blast | Volt Switch | Taunt | Spd/SpA
+982 | Latias4 | Adamant | Life Orb | Draco Meteor | Earthquake | Hone Claws | Dragon Claw | Atk/Spd
+983 | Latios4 | Adamant | Life Orb | Draco Meteor | Earthquake | Dragon Dance | Outrage | Atk/Spd
+984 | Heatran4 | Timid | Choice Scarf | Magma Storm | Earth Power | Dragon Pulse | Flash Cannon | Spd/SpA
+985 | Cresselia4 | Quiet | Iron Ball | Psychic | Trick | Moonblast | Trick Room | Def/SpA
+986 | Landorus4 | Adamant | White Herb | Hammer Arm | Earthquake | Explosion | U-turn | Atk/Def
+987 | Regigigas4 | Careful | Leftovers | Wide Guard | Double Team | Confuse Ray | Toxic | HP/Def
+
+Normal Maison Pokemon
+
+# | Pokemon | Nature | Item | Move | Move | Move | Move | EV Spread
+0 | Rattata1 | Jolly | Cheri Berry | Super Fang | Bite | Quick Attack | Focus Energy | Atk/Spd
+1 | Venipede1 | Impish | Chesto Berry | Venoshock | Struggle Bug | Protect | Toxic | Atk/Def
+2 | Pidgey1 | Jolly | Sharp Beak | Air Slash | Quick Attack | Twister | Sand-Attack | Atk/Spd
+3 | Bunnelby1 | Adamant | Rawst Berry | Mud-Slap | Super Fang | Double Kick | Agility | Atk/Spd
+4 | Honedge1 | Adamant | Persim Berry | Fury Cutter | Shadow Sneak | Aerial Ace | Metal Sound | Atk/Def
+5 | Geodude1 | Adamant | Shuca Berry | Smack Down | Bulldoze | Strength | Rock Polish | Atk/Def
+6 | Oddish1 | Modest | Big Root | Giga Drain | Double Team | Confide | PoisonPowder | HP/Def/SpD
+7 | Cherrim1 | Modest | Persim Berry | Magical Leaf | Helping Hand | Sunny Day | Attract | Spd/SpA
+8 | Meditite1 | Lonely | Cheri Berry | Low Sweep | Feint | Confusion | Detect | Atk/Spd
+9 | Poochyena1 | Hardy | BlackGlasses | Bite | Incinerate | Scary Face | Snarl | Atk/Spd
+10 | Gothorita1 | Calm | Persim Berry | Psybeam | Charge Beam | Fake Tears | Trick Room | SpA/SpD
+11 | Solosis1 | Modest | Quick Claw | Psywave | Round | Pain Split | Light Screen | SpA/SpD
+12 | Natu1 | Modest | TwistedSpoon | Stored Power | Ominous Wind | Reflect | Double Team | Spd/SpA
+13 | Swinub1 | Adamant | Persim Berry | Mud Bomb | Ice Shard | Hail | Protect | Atk/Def
+14 | Poliwag1 | Timid | Cheri Berry | BubbleBeam | Round | Hypnosis | Mud Shot | Spd/SpA
+15 | Shroomish1 | Modest | Big Root | Giga Drain | Venoshock | Toxic | Leech Seed | HP/SpA
+16 | Electrike1 | Jolly | Magnet | Spark | Quick Attack | Thunder Wave | Bite | Atk/Spd
+17 | Snubbull1 | Adamant | Pecha Berry | Confide | Rage | Bite | Charm | Atk/Def
+18 | Magnemite1 | Modest | Metal Coat | Mirror Shot | Charge Beam | Metal Sound | Reflect | Spd/SpA
+19 | Larvitar1 | Adamant | Passho Berry | Rock Slide | Bite | Bulldoze | Scary Face | Atk/Spd
+20 | Pansage1 | Jolly | Sitrus Berry | Seed Bomb | Acrobatics | Leer | Grass Knot | Atk/Spd
+21 | Pansear1 | Bashful | Passho Berry | Flame Burst | Fury Swipes | Leer | Hone Claws | Atk/Spd
+22 | Panpour1 | Modest | Cheri Berry | Scald | Taunt | Water Sport | Leer | Spd/SpA
+23 | Duskull1 | Modest | Ganlon Berry | Hex | Will-O-Wisp | Curse | Toxic | Def/SpA
+24 | Gastly1 | Timid | Lax Incense | Hypnosis | Confuse Ray | Hex | Taunt | Spd/SpA
+25 | Machop1 | Adamant | Payapa Berry | Low Kick | Bulldoze | Retaliate | Scary Face | HP/Atk
+26 | Wingull1 | Serious | Sharp Beak | Aerial Ace | Water Pulse | Quick Attack | Supersonic | HP/Spd
+27 | Snorunt1 | Jolly | Petaya Berry | Ice Fang | Headbutt | Bite | Hail | Atk/Spd
+28 | Pineco1 | Brave | Rocky Helmet | Gyro Ball | Struggle Bug | Iron Defense | Spikes | Atk/Def
+29 | Snover1 | Adamant | Occa Berry | Razor Leaf | Ice Shard | Ingrain | Swagger | HP/Atk
+30 | Spinarak1 | Adamant | Binding Band | Infestation | Poison Jab | Spider Web | Shadow Sneak | Atk/Def
+31 | Chespin1 | Adamant | Sitrus Berry | Vine Whip | Tackle | Pin Missile | Rock Smash | Atk/Def
+32 | Fennekin1 | Modest | Charcoal | Fire Spin | Psybeam | Will-O-Wisp | Lucky Chant | Spd/SpA
+33 | Froakie1 | Hasty | Wacan Berry | Quick Attack | Water Pulse | Round | U-turn | Spd/SpA
+34 | Flabebe1 | Docile | Miracle Seed | Fairy Wind | Razor Leaf | Round | Wish | Atk/SpA
+35 | Bronzor1 | Modest | Rawst Berry | Psywave | Charge Beam | Metal Sound | Confuse Ray | Spd/SpA/SpD
+36 | Litleo1 | Adamant | Persim Berry | Fire Fang | Headbutt | Retaliate | Roar | Atk/Spd
+37 | Ledyba1 | Modest | SilverPowder | Swift | Silver Wind | Baton Pass | Double Team | Spd/SpA
+38 | Joltik1 | Jolly | Liechi Berry | Electroweb | Bug Bite | String Shot | Gastro Acid | Atk/Spd
+39 | Gible1 | Adamant | Dragon Fang | Twister | Sandstorm | Sand Tomb | Rock Tomb | Atk/Spd
+40 | Skorupi1 | Jolly | Poison Barb | Bug Bite | Poison Fang | Aerial Ace | Leer | Atk/Spd
+41 | Shinx1 | Jolly | Razor Fang | Bite | Spark | Thunder Wave | Baby-Doll Eyes | Atk/Spd
+42 | Baltoy1 | Quiet | Rindo Berry | AncientPower | Psybeam | Cosmic Power | Trick Room | SpA/SpD
+43 | Grimer1 | Modest | Payapa Berry | Sludge | Mud-Slap | Incinerate | Minimize | SpA/SpD
+44 | Stunky1 | Modest | BlackGlasses | Snarl | Incinerate | Acid Spray | Torment | HP/SpA
+45 | Phantump1 | Adamant | Sitrus Berry | Ingrain | Shadow Claw | Grass Knot | Leech Seed | HP/Atk
+46 | Frillish1 | Calm | Sitrus Berry | BubbleBeam | Night Shade | Attract | Flash | SpA/SpD
+47 | Espurr1 | Modest | Persim Berry | Psybeam | Fake Out | Thunder Wave | Round | Spd/SpA
+48 | Pawniard1 | Impish | Chople Berry | Faint Attack | Metal Claw | Torment | Iron Defense | Atk/Def
+49 | Pancham1 | Adamant | Sitrus Berry | Comet Punch | Karate Chop | Swagger | Leer | Atk/Def
+50 | Fletchinder1 | Jolly | Sharp Beak | Aerial Ace | Flame Charge | U-turn | Agility | Atk/Spd
+51 | Carvanha1 | Adamant | Mystic Water | Aqua Jet | Bite | Swagger | Screech | Atk/Spd
+52 | Omanyte1 | Bold | Shell Bell | Brine | AncientPower | Protect | Shell Smash | Def/SpD
+53 | Staravia1 | Adamant | Cheri Berry | Aerial Ace | Quick Attack | Whirlwind | Steel Wing | Atk/Spd
+54 | Kricketune1 | Adamant | Coba Berry | Sing | Fell Stinger | Screech | Slash | Atk/Spd
+55 | Houndour1 | Adamant | Chesto Berry | Fire Fang | Bite | Payback | Howl | Atk/Spd
+56 | Drowzee1 | Modest | Focus Band | Psybeam | Hypnosis | Round | Light Screen | Spd/SpA
+57 | Lampent1 | Modest | Absorb Bulb | Flame Burst | Hex | Confuse Ray | Will-O-Wisp | HP/SpA
+58 | Hoothoot1 | Modest | Cheri Berry | Hypnosis | Reflect | Confusion | Echoed Voice | SpA/SpD
+59 | Glameow1 | Adamant | Silk Scarf | Fury Swipes | Attract | Faint Attack | Torment | Atk/Spd
+60 | Skiploom1 | Adamant | Occa Berry | Bullet Seed | Acrobatics | Stun Spore | Fairy Wind | Atk/Spd
+61 | Marill1 | Timid | Rindo Berry | Round | BubbleBeam | Helping Hand | Aqua Ring | HP/Spd
+62 | Boldore1 | Adamant | Rocky Helmet | Smack Down | Headbutt | Sand-Attack | Iron Defense | Atk/Def
+63 | Kirlia1 | Mild | Tanga Berry | Confusion | Magical Leaf | Charge Beam | Charm | Spd/SpA
+64 | Spheal1 | Careful | Pecha Berry | Defense Curl | Ice Ball | Encore | Bulldoze | Atk/SpD
+65 | Cranidos1 | Adamant | Sitrus Berry | Rock Slide | Headbutt | Assurance | Scary Face | Atk/Spd
+66 | Rattata2 | Jolly | Razor Fang | Hyper Fang | U-turn | Crunch | Wild Charge | Atk/Spd
+67 | Venipede2 | Impish | Poison Barb | Sludge Bomb | Steamroller | Payback | Screech | Atk/Def
+68 | Pidgey2 | Jolly | Scope Lens | Fly | Facade | Steel Wing | FeatherDance | Atk/Spd
+69 | Bunnelby2 | Adamant | Silk Scarf | Return | Grass Knot | Dig | Bounce | Atk/Spd
+70 | Honedge2 | Adamant | Quick Claw | Iron Head | Swords Dance | Night Slash | Slash | Atk/Def
+71 | Geodude2 | Adamant | Smooth Rock | Stone Edge | Earthquake | Protect | Sandstorm | Atk/Def
+72 | Oddish2 | Bold | Big Root | Giga Drain | Substitute | Toxic | Protect | Def/SpD
+73 | Cherrim2 | Modest | Rose Incense | Energy Ball | Round | Dazzling Gleam | Sunny Day | Spd/SpA
+74 | Meditite2 | Lonely | Muscle Band | Hi Jump Kick | Psyshock | Rock Slide | Grass Knot | Atk/Spd
+75 | Poochyena2 | Adamant | Razor Fang | Sucker Punch | Crunch | Dig | Frustration | Atk/Spd
+76 | Gothorita2 | Calm | Colbur Berry | Psychic | Thunderbolt | Heal Block | Trick Room | SpA/SpD
+77 | Solosis2 | Modest | Sitrus Berry | Psychic | Shadow Ball | Recover | Wonder Room | SpA/SpD
+78 | Natu2 | Modest | Wise Glasses | Psychic | Dazzling Gleam | Shadow Ball | Calm Mind | Spd/SpA
+79 | Swinub2 | Hardy | NeverMeltIce | Earthquake | Blizzard | Rock Slide | Hail | Atk/Spd/SpA
+80 | Poliwag2 | Timid | Damp Rock | Surf | Ice Beam | Mud Bomb | Rain Dance | Spd/SpA
+81 | Shroomish2 | Jolly | BrightPowder | Seed Bomb | Return | Flash | Spore | Atk/Spd
+82 | Electrike2 | Modest | Air Balloon | Discharge | Leer | Snarl | Light Screen | Spd/SpA
+83 | Snubbull2 | Jolly | Kings Rock | Ice Fang | Fire Fang | Thunder Fang | Play Rough | Atk/Spd
+84 | Magnemite2 | Modest | Light Clay | Thunderbolt | Flash Cannon | Reflect | Light Screen | Def/SpA
+85 | Larvitar2 | Adamant | Hard Stone | Stone Edge | Crunch | Power-Up Punch | Thrash | Atk/Spd
+86 | Pansage2 | Jolly | Salac Berry | Seed Bomb | Crunch | Acrobatics | Torment | Atk/Spd
+87 | Pansear2 | Jolly | Liechi Berry | Flame Charge | Shadow Claw | Acrobatics | Yawn | Atk/Spd
+88 | Panpour2 | Adamant | Shell Bell | Waterfall | Acrobatics | Crunch | Taunt | Atk/Spd
+89 | Duskull2 | Bold | Spell Tag | Shadow Ball | Psychic | Infestation | Will-O-Wisp | Def/SpA
+90 | Gastly2 | Timid | Spell Tag | Shadow Ball | Sucker Punch | Curse | Protect | Spd/SpA
+91 | Machop2 | Adamant | Black Belt | Cross Chop | Revenge | Earthquake | Bulk Up | HP/Atk
+92 | Wingull2 | Modest | Wacan Berry | Air Slash | Scald | Ice Beam | Roost | HP/SpA
+93 | Snorunt2 | Modest | Icy Rock | Ice Beam | Shadow Ball | Protect | Hail | SpA/SpD
+94 | Pineco2 | Impish | Rocky Helmet | Toxic | Venoshock | Payback | Bug Bite | Atk/Def
+95 | Snover2 | Modest | Expert Belt | Ice Beam | Shadow Ball | Energy Ball | Round | SpA/SpD
+96 | Spinarak2 | Adamant | Coba Berry | Pin Missile | Cross Poison | Sticky Web | Sucker Punch | Atk/Def
+97 | Chespin2 | Adamant | Miracle Seed | Seed Bomb | Body Slam | Power-Up Punch | Bulk Up | Atk/SpD
+98 | Fennekin2 | Modest | Passho Berry | Flamethrower | Psychic | Will-O-Wisp | Sunny Day | Spd/SpA
+99 | Froakie2 | Adamant | Rindo Berry | Waterfall | Acrobatics | Grass Knot | Quick Attack | Atk/Spd
+100 | Flabebe2 | Modest | Babiri Berry | Dazzling Gleam | Energy Ball | Psychic | Safeguard | Spd/SpA
+101 | Bronzor2 | Modest | Salac Berry | Extrasensory | Flash Cannon | Payback | Bulldoze | SpA/SpD
+102 | Litleo2 | Modest | Heat Rock | Flamethrower | Snarl | Hyper Voice | Sunny Day | Spd/SpA
+103 | Ledyba2 | Adamant | Charti Berry | Mach Punch | U-turn | Acrobatics | Swords Dance | Atk/Spd
+104 | Joltik2 | Timid | Salac Berry | Signal Beam | Electro Ball | Energy Ball | Agility | Spd/SpA
+105 | Gible2 | Adamant | Yache Berry | Dragon Claw | Bulldoze | Aerial Ace | Shadow Claw | Atk/Spd
+106 | Skorupi2 | Adamant | Razor Claw | X-Scissor | Swords Dance | Cross Poison | Night Slash | Atk/Spd
+107 | Shinx2 | Adamant | Magnet | Wild Charge | Crunch | Thunder Wave | Roar | Atk/Spd
+108 | Baltoy2 | Modest | Quick Claw | Extrasensory | Earth Power | Charge Beam | Power Split | SpA/SpD
+109 | Grimer2 | Calm | Black Sludge | Sludge Bomb | Confide | Acid Armor | Flamethrower | SpA/SpD
+110 | Stunky2 | Adamant | Scope Lens | Slash | Night Slash | Shadow Claw | Feint | Atk/Spd
+111 | Phantump2 | Adamant | Kasib Berry | Faint Attack | Horn Leech | Rock Slide | Poison Jab | Atk/SpD
+112 | Frillish2 | Calm | Shell Bell | Surf | Shadow Ball | Psychic | Recover | SpA/SpD
+113 | Espurr2 | Modest | TwistedSpoon | Psychic | Thunderbolt | Energy Ball | Psyshock | Spd/SpA
+114 | Pawniard2 | Impish | BlackGlasses | Iron Head | Night Slash | Aerial Ace | Swords Dance | Atk/Def
+115 | Pancham2 | Adamant | BlackGlasses | Power-Up Punch | Crunch | Shadow Claw | Rock Slide | Atk/Def
+116 | Fletchinder2 | Adamant | Kings Rock | Flame Charge | Quick Attack | Steel Wing | Fly | Atk/Spd
+117 | Carvanha2 | Jolly | Chople Berry | Crunch | Waterfall | Aqua Jet | Ice Fang | Atk/Spd
+118 | Omanyte2 | Modest | Rindo Berry | Ice Beam | Rock Blast | Mud Shot | Surf | Def/SpA
+119 | Staravia2 | Jolly | Liechi Berry | Endeavor | Aerial Ace | Facade | Quick Attack | Atk/Spd
+120 | Kricketune2 | Calm | Sitrus Berry | Bide | Bug Buzz | Taunt | Round | Def/SpD
+121 | Houndour2 | Modest | Charti Berry | Foul Play | Flamethrower | Dark Pulse | Nasty Plot | Spd/SpA
+122 | Drowzee2 | Adamant | TwistedSpoon | Zen Headbutt | Power-Up Punch | Hypnosis | Headbutt | Atk/Spd
+123 | Lampent2 | Modest | Absorb Bulb | Inferno | Shadow Ball | Confuse Ray | Curse | HP/SpA
+124 | Hoothoot2 | Timid | Yache Berry | Air Slash | Shadow Ball | Hypnosis | Dream Eater | Spd/SpA
+125 | Glameow2 | Adamant | Razor Claw | Slash | Shadow Claw | U-turn | Fake Out | Atk/Spd
+126 | Skiploom2 | Modest | Charti Berry | Energy Ball | Round | Fairy Wind | Dazzling Gleam | Spd/SpA
+127 | Marill2 | Adamant | Muscle Band | Aqua Tail | Brick Break | Strength | Aqua Ring | HP/Atk
+128 | Boldore2 | Adamant | Air Balloon | Rock Blast | Bulldoze | Stealth Rock | Sandstorm | Atk/Def
+129 | Kirlia2 | Modest | TwistedSpoon | Psyshock | Psychic | Thunderbolt | Dazzling Gleam | Spd/SpA
+130 | Spheal2 | Adamant | Icy Rock | Frost Breath | Waterfall | Double Team | Hail | HP/Atk
+131 | Cranidos2 | Modest | Petaya Berry | AncientPower | Flamethrower | Ice Beam | Thunderbolt | Spd/SpA
+132 | Gurdurr1 | Adamant | Zoom Lens | DynamicPunch | Poison Jab | Smack Down | Mach Punch | Atk/Def
+133 | Sliggoo1 | Calm | Sitrus Berry | Bide | Toxic | Flail | Dragon Pulse | Def/SpD
+134 | Primeape1 | Jolly | Persim Berry | Karate Chop | Rock Slide | Thrash | U-turn | Atk/Spd
+135 | Quilladin1 | Adamant | Leftovers | Wood Hammer | Leech Seed | Protect | Dig | Atk/Def
+136 | Frogadier1 | Adamant | Power Herb | Dig | Power-Up Punch | Waterfall | Bounce | Atk/Spd
+137 | Braixen1 | Timid | Light Clay | Flamethrower | Psychic | Safeguard | Light Screen | Spd/SpA
+138 | Bibarel1 | Timid | Chesto Berry | Shadow Ball | Surf | Thunderbolt | Ice Beam | Spd/SpA
+139 | Gabite1 | Adamant | Yache Berry | Dragon Claw | Slash | Earthquake | Sand Tomb | Atk/Spd
+140 | Golbat1 | Impish | BrightPowder | Poison Fang | Steel Wing | Fly | Protect | Def/Spd
+141 | Pachirisu1 | Hardy | BrightPowder | Electro Ball | Hyper Fang | Double Team | Swagger | Atk/Spd/SpA
+142 | Klefki1 | Modest | Apicot Berry | Flash Cannon | Recycle | Draining Kiss | Metal Sound | SpA/SpD
+143 | Wigglytuff1 | Modest | Shell Bell | Disarming Voice | Round | Focus Blast | Thunderbolt | HP/SpA
+144 | Mightyena1 | Modest | Salac Berry | Snarl | Shadow Ball | Frustration | Incinerate | Spd/SpA
+145 | Qwilfish1 | Modest | Focus Band | Ice Beam | Toxic Spikes | Venoshock | Brine | Spd/SpA
+146 | Carnivine1 | Calm | Big Root | Leaf Tornado | Sludge Bomb | Stockpile | Ingrain | Def/SpD
+147 | Sharpedo1 | Modest | Focus Band | Ice Beam | Scald | Dark Pulse | Aqua Jet | Spd/SpA
+148 | Magcargo1 | Hasty | BrightPowder | Double Team | Stone Edge | Earthquake | Shell Smash | Atk/Spd
+149 | Lumineon1 | Timid | Expert Belt | Rain Dance | Surf | Ice Beam | Silver Wind | Spd/SpA
+150 | Floette1 | Quiet | Petaya Berry | Round | Confide | Moonblast | Grass Knot | SpA/SpD
+151 | Magneton1 | Calm | Shuca Berry | Thunderbolt | Flash Cannon | Screech | Metal Sound | Def/SpD
+152 | Purugly1 | Adamant | Lax Incense | Slash | Fake Out | Shadow Claw | Attract | Atk/Spd
+153 | Octillery1 | Adamant | Cell Battery | Soak | Bullet Seed | Rock Blast | Waterfall | Atk/Def
+154 | Stunfisk1 | Quiet | Focus Band | Thunderbolt | Earthquake | Flail | Endure | HP/Atk/SpA
+155 | Heliolisk1 | Jolly | Kings Rock | Volt Switch | U-turn | Quick Attack | Rock Slide | Atk/Spd
+156 | Mantine1 | Timid | Wacan Berry | Air Slash | Scald | Wide Guard | Aqua Ring | Spd/SpA
+157 | Swalot1 | Calm | Sitrus Berry | Stockpile | Shadow Ball | Yawn | Belch | HP/SpD
+158 | Scolipede1 | Adamant | Scope Lens | X-Scissor | Poison Jab | Rock Slide | Swords Dance | Atk/Spd
+159 | Rhydon1 | Adamant | Quick Claw | Stone Edge | Megahorn | Drill Run | Earthquake | Atk/Def
+160 | Sawsbuck1 | Adamant | Lum Berry | Horn Leech | Double-Edge | Wild Charge | Jump Kick | Atk/Spd
+161 | Whimsicott1 | Naive | Coba Berry | SolarBeam | Psychic | Dazzling Gleam | Sunny Day | Spd/SpA
+162 | Dragalge1 | Adamant | BrightPowder | Waterfall | Facade | Double Team | Poison Tail | Atk/Spd
+163 | Heatmor1 | Modest | Lax Incense | Flame Burst | Stockpile | Swallow | Spit Up | HP/SpA
+164 | Grumpig1 | Modest | Leftovers | Rest | Sleep Talk | Psychic | Shadow Ball | Def/SpA/SpD
+165 | Piloswine1 | Bashful | Persim Berry | Blizzard | Thrash | Earthquake | Hail | Atk/SpA
+166 | Vigoroth1 | Jolly | Salac Berry | Shadow Claw | Counter | Endure | Return | Def/Spd
+167 | Cacturne1 | Brave | Razor Claw | Sandstorm | Ingrain | Spikes | Payback | HP/Atk
+168 | Girafarig1 | Timid | Ganlon Berry | Calm Mind | Baton Pass | Psychic | Shadow Ball | Spd/SpA
+169 | Persian1 | Adamant | Rocky Helmet | Taunt | Slash | U-turn | Payback | HP/Atk
+170 | Gurdurr2 | Adamant | White Herb | Superpower | Stone Edge | Chip Away | Bulk Up | HP/Atk
+171 | Sliggoo2 | Modest | Wise Glasses | Dragon Pulse | Ice Beam | Thunderbolt | Muddy Water | SpA/SpD
+172 | Primeape2 | Jolly | Scope Lens | Cross Chop | Stone Edge | Retaliate | Earthquake | Atk/Spd
+173 | Quilladin2 | Modest | Expert Belt | Mud Shot | Energy Ball | Sludge Bomb | Round | Def/SpA
+174 | Frogadier2 | Timid | Kings Rock | Hydro Pump | Ice Beam | Dark Pulse | Round | Spd/SpA
+175 | Braixen2 | Modest | Wide Lens | Fire Blast | Psychic | Psyshock | Round | SpA/SpD
+176 | Bibarel2 | Adamant | Quick Claw | Waterfall | Super Fang | Superpower | Curse | Atk/Spd
+177 | Gabite2 | Adamant | Haban Berry | Dragon Rush | Sandstorm | Stone Edge | Earthquake | Atk/Spd
+178 | Golbat2 | Naive | Razor Fang | Giga Drain | Air Slash | Confuse Ray | Shadow Ball | Spd/SpA
+179 | Pachirisu2 | Jolly | Sitrus Berry | Volt Switch | U-turn | Super Fang | Light Screen | Atk/Spd
+180 | Klefki2 | Calm | Occa Berry | Flash Cannon | Dazzling Gleam | Psychic | Crafty Shield | SpA/SpD
+181 | Wigglytuff2 | Adamant | Babiri Berry | Play Rough | Brick Break | Body Slam | Grass Knot | HP/Atk
+182 | Mightyena2 | Adamant | Razor Claw | Crunch | Sucker Punch | Frustration | Taunt | Atk/Spd
+183 | Qwilfish2 | Adamant | Cell Battery | Aqua Tail | Poison Jab | Pin Missile | Stockpile | Atk/Spd
+184 | Carnivine2 | Adamant | Binding Band | Infestation | Swords Dance | Crunch | Power Whip | HP/Atk
+185 | Sharpedo2 | Jolly | Muscle Band | Night Slash | Waterfall | Earthquake | Ice Fang | Atk/Spd
+186 | Magcargo2 | Quiet | White Herb | Overheat | Earth Power | Gyro Ball | Body Slam | Atk/SpA
+187 | Lumineon2 | Jolly | Shell Bell | Waterfall | Attract | Bounce | Aqua Ring | Atk/Spd
+188 | Floette2 | Adamant | Kebia Berry | Grassy Terrain | Misty Terrain | Dazzling Gleam | Petal Blizzard | SpA/SpD
+189 | Magneton2 | Modest | Quick Claw | Magnet Rise | Flash Cannon | Thunder | Metal Sound | Def/SpA
+190 | Purugly2 | Modest | Big Root | Hypnosis | Dream Eater | Shadow Ball | Round | Spd/SpA
+191 | Octillery2 | Modest | Razor Claw | Flamethrower | Ice Beam | Flash Cannon | Signal Beam | SpA/SpD
+192 | Stunfisk2 | Modest | Wide Lens | Thunderbolt | Muddy Water | Scald | Fissure | HP/SpA
+193 | Heliolisk2 | Modest | Wide Lens | Round | Focus Blast | Dark Pulse | Thunder | Spd/SpA
+194 | Mantine2 | Mild | Cell Battery | Rain Dance | Hydro Pump | Ice Beam | Earthquake | Atk/SpA
+195 | Swalot2 | Calm | Black Sludge | Stockpile | Toxic | Protect | Earthquake | Def/SpD
+196 | Scolipede2 | Jolly | Kings Rock | Steamroller | Poison Tail | Earthquake | Rock Slide | Atk/Spd
+197 | Rhydon2 | Impish | Rocky Helmet | Horn Drill | Dragon Tail | Payback | Hammer Arm | Def/SpD
+198 | Sawsbuck2 | Adamant | Shell Bell | Horn Leech | Double-Edge | Megahorn | Leech Seed | Atk/Spd
+199 | Whimsicott2 | Modest | Sitrus Berry | Energy Ball | Moonblast | Leech Seed | Tailwind | Spd/SpA
+200 | Dragalge2 | Modest | Payapa Berry | Dragon Pulse | Sludge Wave | Surf | Thunderbolt | Spd/SpA
+201 | Heatmor2 | Hardy | Shuca Berry | Inferno | Night Slash | Focus Blast | Aerial Ace | Atk/SpA
+202 | Grumpig2 | Modest | Wise Glasses | Psychic | Shadow Ball | Power Gem | Energy Ball | Spd/SpA
+203 | Piloswine2 | Relaxed | Zoom Lens | Hail | Stone Edge | Blizzard | Fissure | HP/Def
+204 | Vigoroth2 | Modest | BrightPowder | Ice Beam | Thunderbolt | Flamethrower | Shadow Ball | Spd/SpA
+205 | Cacturne2 | Quiet | Scope Lens | Dark Pulse | Energy Ball | Sucker Punch | Focus Blast | Atk/SpA
+206 | Girafarig2 | Modest | Colbur Berry | Psychic | Thunderbolt | Energy Ball | Dazzling Gleam | Spd/SpA
+207 | Persian2 | Timid | Life Orb | Round | Fake Out | Power Gem | Dark Pulse | Spd/SpA

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Battle Maison Search Engine</title>
+  <meta name="description" content="Battle Maison Search">
+  <meta name="author" content="Daniel Shepsis">
+</head>
+<style>
+body {
+  background-color: #eee;
+  margin-left:10%;
+  margin-top: 5%;
+}
+* {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+h1 {
+
+  font-size: 2em;
+}
+pre {
+  font-family: monospace;
+}
+
+.small-link{
+  font-size: .3em;
+}
+
+.output {
+  border: 1px dashed #555;
+  background-color: #ddd;
+  padding: .5em;
+  margin-right: 10px;
+  display:none;
+}
+
+textarea {
+  vertical-align: top;
+  font-family: monospace;
+}
+
+/*Expanding Div styling:*/
+.expanding {
+  border: 1px solid indigo;
+  padding: .5em;
+  display: table;
+  margin: 15px 0px;
+  background-color: #eae7ee;
+  color: white;
+}
+.expanding p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.expanding-title {
+  color: blue;
+  font-size: 1.1em;
+}
+.expanding-title::selection {
+  background:transparent;
+}
+.expanding-title:hover {
+  color: purple;
+}
+</style>
+
+<body>
+  <h1>
+    Pokemon XY/ORAS Battle Maison Search Engine
+  </h1>
+  <p>
+    This is a simple search engine for finding data about trainers and Pokemon in the XY and ORAS Battle Maisons
+  <p>
+
+  <input type="text" id="trainer" placeholder="Trainer Name" oninput="search()" onpropertychange="search()" />
+  <input type="text" id="pokemon" placeholder="Pokemon" oninput="search()" onpropertychange="search()" />
+  <table id="output">
+    <tr>
+      <td>COMING SOON!!!!</td>
+    </tr>
+  </table>
+
+<script>
+  "use strict";
+  var error_message = "";
+
+  function search () {
+    console.log("Easter egg!");
+  }
+
+  /*function pkSearch (trainerName, pkmnName) {
+    var tregex = new RegExp(trmap[trainerName.toLowerCase()] + " - (.+)", "i");
+    var sets = tregex.exec(tr)[0];
+    var whichSet = new RegExp(pkmnName + "\\d?", "gi");
+    var setName = whichSet.exec(sets)[0];
+    var setRegex = new RegExp(setName + ".*");
+    var result = setRegex.exec(pk)[0];
+    var re = whichSet.exec(sets);
+    while (re != null) {
+      setName = re[0];
+      setRegex = new RegExp(setName + ".*");
+      result += "\n " + setRegex.exec(pk)[0];
+      re = whichSet.exec(sets);
+    }
+    return result;
+  }*/
+
+  //Toggles the parameter element's style.display property between "none" and
+  //"block"
+  function toggleDisplay(elem) {
+    if (elem.style.display === "none") elem.style.display = "block";
+    else elem.style.display = "none";
+  }
+
+
+  //Copy contents of output box
+  function copyToClipBoard(elem){
+    //var elem = document.getElementById("utput");
+    var range = document.createRange();
+    range.selectNodeContents(elem);
+    var selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+  }
+</script>
+</body>
+</html>

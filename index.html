@@ -108,7 +108,8 @@ pre {
         var nameRegex = /^([^,\n]+),([^,\n]+)$/gm
         var nameMatch = nameRegex.exec(nameText);
         while (nameMatch != null) {
-          trainerNameTranslation[nameMatch[2]] = nameMatch[1]; //Set up map
+          /* Setting up a name map from ORAS names to XY names: */
+          trainerNameTranslation[nameMatch[2].toLowerCase()] = nameMatch[1].toLowerCase();
           var nameMatch = nameRegex.exec(nameText);
         }
         console.log("Name Translations Ready!");

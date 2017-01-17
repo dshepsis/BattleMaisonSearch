@@ -10,7 +10,7 @@
 </head>
 <style>
 body {
-  background-color: #eee;
+  background-color: #eeeef3;
   margin-left:10%;
   margin-top: 5%;
 }
@@ -20,8 +20,12 @@ body {
   color: #333;
 }
 h1 {
-
   font-size: 2em;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
 }
 pre {
   font-family: monospace;
@@ -31,42 +35,19 @@ pre {
   font-size: .3em;
 }
 
-.output {
-  border: 1px dashed #555;
-  background-color: #ddd;
-  padding: .5em;
-  margin-right: 10px;
-  display:none;
+#output {
+  border: 1px solid Gray;
+}
+#output > tr {
+  border: 1px dashed Gray;
+}
+#output > tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+#output > tr:nth-child(even) {
+  background-color: #f0f0f0;
 }
 
-textarea {
-  vertical-align: top;
-  font-family: monospace;
-}
-
-/*Expanding Div styling:*/
-.expanding {
-  border: 1px solid indigo;
-  padding: .5em;
-  display: table;
-  margin: 15px 0px;
-  background-color: #eae7ee;
-  color: white;
-}
-.expanding p {
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-.expanding-title {
-  color: blue;
-  font-size: 1.1em;
-}
-.expanding-title::selection {
-  background:transparent;
-}
-.expanding-title:hover {
-  color: purple;
-}
 </style>
 
 <body>
@@ -85,8 +66,6 @@ textarea {
 
 <script>
   "use strict";
-  var error_messages = [];
-
 
   /* A function for acquiring text file contents from a server: */
   function AJAXTextLoader(responseCallBack, dataURL) {
@@ -96,7 +75,7 @@ textarea {
         if (httpRequest.status === 200) { //Code for "Good"
           responseCallBack(httpRequest.responseText);
         } else {
-          error_messages.push("AJAX attempt failed. Error code: " + httpRequest.status);
+          console.error("AJAX attempt failed. Error code: " + httpRequest.status);
         }
       }
     }
@@ -130,6 +109,7 @@ textarea {
         var nameMatch = nameRegex.exec(nameText);
         while (nameMatch != null) {
           trainerNameTranslation[nameMatch[2]] = nameMatch[1]; //Set up map
+          var nameMatch = nameRegex.exec(nameText);
         }
         console.log("Name Translations Ready!");
       },
@@ -142,17 +122,26 @@ textarea {
   var pokemonForm = document.getElementById("pokemon");
   var resultsTable = document.getElementById("output");
   function search () {
-    var results = pkSearch(trainerForm.value, pokemonForm.value);
-    for (res in results) {
+    var trainerName = trainerForm.value;
+    if (trainerName === "") return;
+    var pokemonName = pokemonForm.value;
+    if (pokemonName === "") return;
+    var results = pkSearch(trainerName, pokemonName);
+    console.log(results);
+
+
+    /* First, clear out the table: */
+    while (resultsTable.firstChild) {
+      resultsTable.removeChild(resultsTable.firstChild);
+    }
+    for (var i = 0;  i < results.length; ++i) {
       var trEle = document.createElement("tr"); //Table Row
       var tdEle = document.createElement("tr"); //Table Data
-      var textNode = document.createTextNode(res); //Getting text from results
+      /* Getting text from results: */
+      var textNode = document.createTextNode(results[i]);
       tdEle.appendChild(textNode) //Putting text in data cell
       trEle.appendChild(tdEle); //Putting data cell in row
       resultsTable.appendChild(trEle);
-    }
-    for (var e in error_messages) {
-      console.error(e);
     }
   }
 
@@ -161,15 +150,15 @@ textarea {
      * trainer name */
     var tregex = new RegExp(trainerName + " - (.+)", "i");
     var tmatch = tregex.exec(trainerData);
-    if (tMatch === null) { //If the user is using ORAS names:
+    if (tmatch === null) { //If the user is using ORAS names:
       var tregex = new RegExp(trainerNameTranslation[trainerName.toLowerCase()] + " - (.+)", "i");
       tmatch = tregex.exec(trainerData);
-      if (tMatch === null) { //If we still don't find it, quit
-        error_messages.push("Bad Trainer Name!");
+      if (tmatch === null) { //If we still don't find it, quit
+        console.error("Bad Trainer Name!");
         return false;
       }
     }
-    var setsUsedByTrainer = tMatch[1];
+    var setsUsedByTrainer = tmatch[1];
 
     /* Then look for which set in particular is being used: */
     var setsForGivenPokemonRegex = new RegExp(pkmnName + "\\d", "gi");
@@ -177,7 +166,7 @@ textarea {
      * actual set(s) is(are) being used by the parameter trainer: */
     var setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
     if (setResult === null) {
-      error_messages.push("Trainer doesn't use that pokemon!");
+      console.error("Trainer doesn't use that pokemon!");
       return false;
     }
     /* Get a list of all sets that the trainer uses for the given pokemon.
@@ -185,19 +174,21 @@ textarea {
      * other can use multiple, sometimes all 4: */
     var setsUsedOfPkmn = [];
     while (setResult != null) {
+      console.log("184\t" + setResult[0]);
       setsUsedOfPkmn.push(setResult[0]);
       setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
     }
+    console.log(setsUsedOfPkmn);
 
     /* Then find the actual set data for this pokemon: */
     var pendingRet = [];
-    for (var setName in setsUsedOfPkmn) {
-      var setDataRegex = new RegExp(setName + ".++");
+    for (var i = 0; i < setsUsedOfPkmn.length; ++i) {
+      var setDataRegex = new RegExp(setsUsedOfPkmn[i] + ".+");
       var particularSet = setDataRegex.exec(pokemonData);
       if (particularSet === null) { //There is no set, for whatever reason
-        error_messages.push("Could not find a set for the given set name: " + setName);
+        console.error("Could not find a set for the given set name: " + setName);
       }
-      pendingRet.push(setDataRegex.exec(pk)[0]);
+      pendingRet.push(particularSet[0]);
     }
     return pendingRet;
   }

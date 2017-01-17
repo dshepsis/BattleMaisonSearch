@@ -161,7 +161,7 @@ pre {
     var setsUsedByTrainer = tmatch[1];
 
     /* Then look for which set in particular is being used: */
-    var setsForGivenPokemonRegex = new RegExp(pkmnName + "\\d", "gi");
+    var setsForGivenPokemonRegex = new RegExp("\\b" + pkmnName + "\\d\\b", "gi");
     /* THe result will be the pokemon's name plus a number 1-4 indicating which
      * actual set(s) is(are) being used by the parameter trainer: */
     var setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);

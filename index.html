@@ -80,35 +80,127 @@ textarea {
   <input type="text" id="trainer" placeholder="Trainer Name" oninput="search()" onpropertychange="search()" />
   <input type="text" id="pokemon" placeholder="Pokemon" oninput="search()" onpropertychange="search()" />
   <table id="output">
-    <tr>
-      <td>COMING SOON!!!!</td>
-    </tr>
+
   </table>
 
 <script>
   "use strict";
-  var error_message = "";
+  var error_messages = [];
 
-  function search () {
-    console.log("Easter egg!");
+
+  /* A function for acquiring text file contents from a server: */
+  function AJAXTextLoader(responseCallBack, dataURL) {
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onreadystatechange = function() {
+      if (httpRequest.readyState === XMLHttpRequest.DONE) {
+        if (httpRequest.status === 200) { //Code for "Good"
+          responseCallBack(httpRequest.responseText);
+        } else {
+          error_messages.push("AJAX attempt failed. Error code: " + httpRequest.status);
+        }
+      }
+    }
+    httpRequest.open("GET", dataURL);
+    httpRequest.send();
   }
 
-  /*function pkSearch (trainerName, pkmnName) {
-    var tregex = new RegExp(trmap[trainerName.toLowerCase()] + " - (.+)", "i");
-    var sets = tregex.exec(tr)[0];
-    var whichSet = new RegExp(pkmnName + "\\d?", "gi");
-    var setName = whichSet.exec(sets)[0];
-    var setRegex = new RegExp(setName + ".*");
-    var result = setRegex.exec(pk)[0];
-    var re = whichSet.exec(sets);
-    while (re != null) {
-      setName = re[0];
-      setRegex = new RegExp(setName + ".*");
-      result += "\n " + setRegex.exec(pk)[0];
-      re = whichSet.exec(sets);
+  /* Here we use AJAX to acquire all necessary data for search: */
+  var pokemonData; //Data about Pokemon sets
+  AJAXTextLoader(
+      function(responseText){
+        pokemonData = responseText;
+        console.log("Pokemon Sets Ready!");
+      },
+      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonPokemon.txt"
+  );
+  var trainerData; //Data about which sets each trainer uses
+  AJAXTextLoader(
+      function(responseText){
+        trainerData = responseText;
+        console.log("Trainer Data Ready!");
+      },
+      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonTrainers.txt"
+  );
+  var trainerNameTranslation; //Trainer name translations from ORAS to XY
+  AJAXTextLoader(
+      function(responseText){ /* Parse through text file right away: */
+        var nameText = responseText;
+        trainerNameTranslation = {};
+        var nameRegex = /^([^,\n]+),([^,\n]+)$/gm
+        var nameMatch = nameRegex.exec(nameText);
+        while (nameMatch != null) {
+          trainerNameTranslation[nameMatch[2]] = nameMatch[1]; //Set up map
+        }
+        console.log("Name Translations Ready!");
+      },
+      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonTrainerNamesXy-Oras"
+  );
+
+ /* Getting the form elements so that they can be quickly queried for their
+  * contents: */
+  var trainerForm = document.getElementById("trainer");
+  var pokemonForm = document.getElementById("pokemon");
+  var resultsTable = document.getElementById("output");
+  function search () {
+    var results = pkSearch(trainerForm.value, pokemonForm.value);
+    for (res in results) {
+      var trEle = document.createElement("tr"); //Table Row
+      var tdEle = document.createElement("tr"); //Table Data
+      var textNode = document.createTextNode(res); //Getting text from results
+      tdEle.appendChild(textNode) //Putting text in data cell
+      trEle.appendChild(tdEle); //Putting data cell in row
+      resultsTable.appendChild(trEle);
     }
-    return result;
-  }*/
+    for (var e in error_messages) {
+      console.error(e);
+    }
+  }
+
+  function pkSearch (trainerName, pkmnName) {
+    /* Start by looking for the trainer data corresponding to the parameter
+     * trainer name */
+    var tregex = new RegExp(trainerName + " - (.+)", "i");
+    var tmatch = tregex.exec(trainerData);
+    if (tMatch === null) { //If the user is using ORAS names:
+      var tregex = new RegExp(trainerNameTranslation[trainerName.toLowerCase()] + " - (.+)", "i");
+      tmatch = tregex.exec(trainerData);
+      if (tMatch === null) { //If we still don't find it, quit
+        error_messages.push("Bad Trainer Name!");
+        return false;
+      }
+    }
+    var setsUsedByTrainer = tMatch[1];
+
+    /* Then look for which set in particular is being used: */
+    var setsForGivenPokemonRegex = new RegExp(pkmnName + "\\d", "gi");
+    /* THe result will be the pokemon's name plus a number 1-4 indicating which
+     * actual set(s) is(are) being used by the parameter trainer: */
+    var setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
+    if (setResult === null) {
+      error_messages.push("Trainer doesn't use that pokemon!");
+      return false;
+    }
+    /* Get a list of all sets that the trainer uses for the given pokemon.
+     * note that while most trainers only use 1 set for any given pokemon,
+     * other can use multiple, sometimes all 4: */
+    var setsUsedOfPkmn = [];
+    while (setResult != null) {
+      setsUsedOfPkmn.push(setResult[0]);
+      setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
+    }
+
+    /* Then find the actual set data for this pokemon: */
+    var pendingRet = [];
+    for (var setName in setsUsedOfPkmn) {
+      var setDataRegex = new RegExp(setName + ".++");
+      var particularSet = setDataRegex.exec(pokemonData);
+      if (particularSet === null) { //There is no set, for whatever reason
+        error_messages.push("Could not find a set for the given set name: " + setName);
+      }
+      pendingRet.push(setDataRegex.exec(pk)[0]);
+    }
+    return pendingRet;
+  }
 
   //Toggles the parameter element's style.display property between "none" and
   //"block"

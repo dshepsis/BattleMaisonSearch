@@ -14,7 +14,7 @@ body {
   margin-left:10%;
   margin-top: 5%;
 }
-* {
+p, table, tr, td, li, pre, h1, h2, h3, h4, h5, h6, input {
   font-family: sans-serif;
   font-size: 20px;
   color: #333;
@@ -48,6 +48,23 @@ pre {
   background-color: #f0f0f0;
 }
 
+#noscriptContent {
+  border: 1px dashed red;
+  background-color: #fee;
+  padding: 1em;
+  color: #c00;
+  display: table;
+}
+#noscriptContent p {
+  color: #c00;
+}
+#noscriptContent > p:first-child {
+  margin-top: 0px;
+}
+#noscriptContent > p:last-child {
+  margin-bottom: 0px;
+}
+
 </style>
 
 <body>
@@ -60,6 +77,14 @@ pre {
 
   <input type="text" id="trainer" placeholder="Trainer Name" oninput="search()" onpropertychange="search()" />
   <input type="text" id="pokemon" placeholder="Pokemon" oninput="search()" onpropertychange="search()" />
+
+  <noscript>
+    <div id="noscriptContent">
+      <p>It seems you have JavaScript disabled in your browser. Sadly, this site requires JavaScript to be enabled in order to function correctly.</p>
+      <p>Here are the <a href="http://www.enable-javascript.com/" target="_blank"> instructions on how to enable JavaScript in your web browser.</a></p>
+    </div>
+  </noscript>
+
   <table id="output">
 
   </table>

@@ -81,7 +81,7 @@ pre {
   <noscript>
     <div id="noscriptContent">
       <p>It seems you have JavaScript disabled in your browser. Sadly, this site requires JavaScript to be enabled in order to function correctly.</p>
-      <p>Here are the <a href="http://www.enable-javascript.com/" target="_blank"> instructions on how to enable JavaScript in your web browser.</a></p>
+      <p>Here are some <a href="http://www.enable-javascript.com/" target="_blank">instructions on how to enable JavaScript in your web browser.</a></p>
     </div>
   </noscript>
 
@@ -160,6 +160,7 @@ pre {
     while (resultsTable.firstChild) {
       resultsTable.removeChild(resultsTable.firstChild);
     }
+    /* Then add new rows: */
     for (var i = 0;  i < results.length; ++i) {
       var trEle = document.createElement("tr"); //Table Row
       var tdEle = document.createElement("tr"); //Table Data
@@ -219,17 +220,16 @@ pre {
     return pendingRet;
   }
 
-  //Toggles the parameter element's style.display property between "none" and
-  //"block"
+  /* Toggles the parameter element's style.display property between "none" and
+   * "block" */
   function toggleDisplay(elem) {
     if (elem.style.display === "none") elem.style.display = "block";
     else elem.style.display = "none";
   }
 
 
-  //Copy contents of output box
+  /* Copy contents of output box */
   function copyToClipBoard(elem){
-    //var elem = document.getElementById("utput");
     var range = document.createRange();
     range.selectNodeContents(elem);
     var selection = window.getSelection();

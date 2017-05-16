@@ -35,17 +35,29 @@ pre {
   font-size: .3em;
 }
 
+/* Output Table Styling: */
 #output {
   border: 1px solid Gray;
+  border-collapse: collapse;
 }
-#output > tr {
-  border: 1px dashed Gray;
+#output.searchError {
+  border: 1px solid DarkRed;
+}
+#output td, #output th {
+  padding: 5px;
+  border-right: 1px dashed #aaa;
 }
 #output > tr:nth-child(odd) {
   background-color: #e8e8e8;
 }
 #output > tr:nth-child(even) {
   background-color: #f0f0f0;
+}
+#output.searchError > tr:nth-child(odd) {
+  background-color: #fcc;
+}
+#output.searchError > tr:nth-child(even) {
+  background-color: #fdd;
 }
 
 #noscriptContent {
@@ -72,8 +84,11 @@ pre {
     Pokemon XY/ORAS Battle Maison Search Engine
   </h1>
   <p>
-    This is a simple search engine for finding data about trainers and Pokemon in the XY and ORAS Battle Maisons
+    This is a simple search engine for finding data about trainers and Pokemon in the XY and ORAS Battle Maisons.
+  </p>
   <p>
+    Enter "<b>*</b>" for the trainer name to get every set for the given Pokemon.
+  </p>
 
   <input type="text" id="trainer" placeholder="Trainer Name" oninput="search()" onpropertychange="search()" />
   <input type="text" id="pokemon" placeholder="Pokemon" oninput="search()" onpropertychange="search()" />
@@ -85,8 +100,7 @@ pre {
     </div>
   </noscript>
 
-  <table id="output">
-
+  <table id="output" style="display:none;">
   </table>
 
 <script>
@@ -109,132 +123,252 @@ pre {
   }
 
   /* Here we use AJAX to acquire all necessary data for search: */
-  var pokemonData; //Data about Pokemon sets
+  var trainerToTeam; //Maps Trainer names to the number for the team they use
   AJAXTextLoader(
       function(responseText){
-        pokemonData = responseText;
-        console.log("Pokemon Sets Ready!");
+        trainerToTeam = JSON.parse(responseText);
+        console.log("Trainer teams ready!");
+        /* Attempting to do the search, in case the user already typed their
+         * query: */
+        search();
       },
-      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonPokemon.txt"
+      "data/TrainerSetJSON.json"
   );
-  var trainerData; //Data about which sets each trainer uses
+  var teamContents; //Data about which pokemon each set contains
   AJAXTextLoader(
       function(responseText){
-        trainerData = responseText;
-        console.log("Trainer Data Ready!");
+        teamContents = JSON.parse(responseText);
+        console.log("Team data ready!");
+        search();
       },
-      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonTrainers.txt"
+      "data/teamArrayJSON.json"
   );
-  var trainerNameTranslation; //Trainer name translations from ORAS to XY
+  /* Data about each set for each Pokemon (items, movesets, etc.): */
+  var pokemonSetsData;
   AJAXTextLoader(
       function(responseText){ /* Parse through text file right away: */
-        var nameText = responseText;
-        trainerNameTranslation = {};
-        var nameRegex = /^([^,\n]+),([^,\n]+)$/gm
-        var nameMatch = nameRegex.exec(nameText);
-        while (nameMatch != null) {
-          /* Setting up a name map from ORAS names to XY names: */
-          trainerNameTranslation[nameMatch[2].toLowerCase()] = nameMatch[1].toLowerCase();
-          var nameMatch = nameRegex.exec(nameText);
-        }
-        console.log("Name Translations Ready!");
+        pokemonSetsData = JSON.parse(responseText);
+        console.log("Pokemon set data ready!");
+        search();
       },
-      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonTrainerNamesXy-Oras"
+      "data/pokemonSetsJSON.json"
   );
 
- /* Getting the form elements so that they can be quickly queried for their
-  * contents: */
+  /* Table maker functions: */
+  function makeElement(type, content) {
+    /* The new element being populated: */
+    var newEle = document.createElement(type);
+
+    /* If no content parameter was passed, leave the element childless:
+     *
+     * NOTE: This function is basically equivalent to document.createElement()
+     * if you use this feature. It's only here for code consistency should you
+     * need to create both childed and childless elements */
+    if (content === undefined) {
+      return newEle;
+    }
+
+    /* If content is already an element, just append it directly to newELe: */
+    if (content instanceof HTMLElement) {
+      newEle.appendChild(content);
+    }
+
+    /* Otherwise, coerce content into a string and make a text node out of it.
+     * Then, append that text node to newEle: */
+    else {
+      var text = document.createTextNode(String(content));
+      newEle.appendChild(text);
+    }
+    return newEle;
+  }
+
+  function makeTableRow(entries, elementType) {
+    /* elementType is an optional parameter to allow users to specify other
+     * types for the container of entries. */
+    if (elementType === undefined) {
+      elementType = "td";
+    }
+
+    /* The element which will hold our new table row: */
+    var newRow = document.createElement("tr");
+
+    /* If entries is an array, loop through it and add each item to the tr in-
+     * order: */
+    if (Array.isArray(entries)) {
+      var length = entries.length;
+      for (var i = 0; i < length; ++i) {
+        newRow.appendChild( makeElement(elementType, entries[i]) );
+      }
+    }
+    /* Otherwise, assume we want just a single-element row: */
+    else {
+      newRow.appendChild( makeElement(elementType, entries) );
+    }
+    return newRow;
+  }
+
+  function toCamelCase(str) {
+    str = String(str);
+    return str.replace(/\b\w/g, letter => letter.toUpperCase());
+  }
+
+  /* Getting the form elements so that they can be quickly queried for their
+   * contents: */
   var trainerForm = document.getElementById("trainer");
   var pokemonForm = document.getElementById("pokemon");
   var resultsTable = document.getElementById("output");
+
+  /* Validates the user inputs from the form and calls pkSearch() to find the
+   * relevant information. Then, adds to result to the interface with DOM
+   * commands: */
   function search () {
-    var trainerName = trainerForm.value;
-    if (trainerName === "") return;
-    var pokemonName = pokemonForm.value;
-    if (pokemonName === "") return;
+    var trainerName = trainerForm.value.toLowerCase().trim();
+    if (trainerName === "") {
+      resultsTable.style.display = "none";
+      return;
+    }
+    /* Special case for the trainer O'Hare. I do this because the apostrophe in
+     * his name is weird and I suspect some people might try to use other
+     * symbols like the grave mark `. This just catches all conceivable
+     * variations (e.g. "O`hare", "O-hare", "ohare", "o hare", etc.): */
+    if (/o\W*hare/.test(trainerName)) {
+      trainerName = "o'hare";
+    }
+
+    var pokemonName = pokemonForm.value.toLowerCase().trim();
+    if (pokemonName === "") {
+      resultsTable.style.display = "none";
+      return;
+    }
+    /* At this point we've determined we have enough data to run a search,
+     * which will get us either an error or a valid result.
+     * Either way, the table needs to be made visible now so that the results
+     * can be displayed later: */
+    resultsTable.style.display = "table";
+
+    /* Get relevant data: */
     var results = pkSearch(trainerName, pokemonName);
-    console.log(results);
 
-
+    /* Then display the results: */
     /* First, clear out the table: */
     while (resultsTable.firstChild) {
       resultsTable.removeChild(resultsTable.firstChild);
     }
-    /* Then add new rows: */
-    for (var i = 0;  i < results.length; ++i) {
-      var trEle = document.createElement("tr"); //Table Row
-      var tdEle = document.createElement("tr"); //Table Data
-      /* Getting text from results: */
-      var textNode = document.createTextNode(results[i]);
-      tdEle.appendChild(textNode) //Putting text in data cell
-      trEle.appendChild(tdEle); //Putting data cell in row
-      resultsTable.appendChild(trEle);
+
+    /* Use document fragment to avoid multiple changes to the DOM: */
+    var docFrag = document.createDocumentFragment();
+
+    /* If we got an error response, display it: */
+    if (results.Error) {
+      /* Add an error class so that error messages can be styled differently: */
+      resultsTable.classList.add("searchError");
+
+      var header = makeTableRow("Error!", "th");
+      docFrag.appendChild(header);
+
+      var body = makeTableRow(results.Message);
+      docFrag.appendChild(body);
     }
+    /* If we did not get an error, display the response normally: */
+    else {
+      /* If present, remove the error class: */
+      resultsTable.classList.remove("searchError");
+
+      /* Create header: */
+      var headerItems = ["Species", "Set", "Nature", "Item", "Moves", "EVs"];
+      var colSpans =    [1,          1,     1,        1,      4,       1];
+      var isCentered =  [false,      true,  true,     false,  true,   false]
+      var header = makeTableRow(headerItems, "th");
+
+      var numFields = headerItems.length
+      for (var col = 0; col < numFields; ++col) {
+        header.children[col].colSpan = colSpans[col];
+      }
+      docFrag.appendChild(header);
+
+      /* Create body: */
+      var resLength = results.length;
+      for (var row = 0; row < resLength; ++row) {
+        var bodyRow = makeElement("tr");
+        var thisResult = results[row];
+        for (var col = 0; col < numFields; ++col) {
+          var field = thisResult[ headerItems[col] ];
+
+          /* Special handling for arrays: */
+          if (Array.isArray(field)) {
+            var len = field.length;
+            for (var i = 0; i < len; ++i) {
+              var subFieldEle = makeElement("td", toCamelCase(field[i]) );
+              if (isCentered[col]) {
+                subFieldEle.style.textAlign = "center";
+              }
+              bodyRow.appendChild(subFieldEle);
+            }
+          }
+          else {
+            var thisResultEle = makeElement("td", toCamelCase(field) );
+            if (isCentered[col]) {
+              thisResultEle.style.textAlign = "center";
+            }
+            bodyRow.appendChild(thisResultEle);
+          }
+        }
+        docFrag.appendChild(bodyRow);
+      }
+    }
+    /* Add the result to the table so the user can see it: */
+    resultsTable.appendChild(docFrag);
   }
 
   function pkSearch (trainerName, pkmnName) {
-    /* Start by looking for the trainer data corresponding to the parameter
-     * trainer name */
-    var tregex = new RegExp(trainerName + " - (.+)", "i");
-    var tmatch = tregex.exec(trainerData);
-    if (tmatch === null) { //If the user is using ORAS names:
-      var tregex = new RegExp(trainerNameTranslation[trainerName.toLowerCase()] + " - (.+)", "i");
-      tmatch = tregex.exec(trainerData);
-      if (tmatch === null) { //If we still don't find it, quit
-        console.error("Bad Trainer Name!");
-        return false;
+    /* SPECIAL CASE: Wildcard trainer: */
+    if (trainerName === '*') {
+      var allSets = pokemonSetsData[pkmnName];
+      /* If the name isn't valid: */
+      if (allSets === undefined) {
+        return {
+          Error: true,
+          ErrorType: "badPokemon",
+          Message: ("There is no Pokemon called " + pkmnName + " in the Battle Maison.")
+        }
       }
+      /* Otherwise, return every set for the pokemon: */
+      return allSets;
     }
-    var setsUsedByTrainer = tmatch[1];
-
-    /* Then look for which set in particular is being used: */
-    var setsForGivenPokemonRegex = new RegExp("\\b" + pkmnName + "\\d\\b", "gi");
-    /* THe result will be the pokemon's name plus a number 1-4 indicating which
-     * actual set(s) is(are) being used by the parameter trainer: */
-    var setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
-    if (setResult === null) {
-      console.error("Trainer doesn't use that pokemon!");
-      return false;
+    /* Find the team used by the parameter trainer */
+    var trainerTeam = trainerToTeam[trainerName];
+    /* Bad Trainer error: */
+    if (trainerTeam === undefined) {
+      return {
+        Error: true,
+        ErrorType: "badTrainer",
+        Message: ("Trainer " + trainerName + " does not exist.")
+      };
     }
-    /* Get a list of all sets that the trainer uses for the given pokemon.
-     * note that while most trainers only use 1 set for any given pokemon,
-     * other can use multiple, sometimes all 4: */
-    var setsUsedOfPkmn = [];
-    while (setResult != null) {
-      console.log("184\t" + setResult[0]);
-      setsUsedOfPkmn.push(setResult[0]);
-      setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
+
+    /* Then check the sets for the parameter pokemon which are used by the team
+     * used by the parameter trainer.
+     * NOTE: While many trainers only use 1 set for any given pokemon, others
+     * can use multiple, sometimes all 4: */
+    var setsForPokemon = teamContents[trainerTeam][pkmnName];
+    /* Bad Pokemon error: */
+    if (setsForPokemon === undefined) {
+      return {
+        Error: true,
+        ErrorType: "badPokemon",
+        Message: ("Trainer " + trainerName + " does not use the Pokemon " + pkmnName + ".")
+      };
     }
-    console.log(setsUsedOfPkmn);
-
-    /* Then find the actual set data for this pokemon: */
-    var pendingRet = [];
-    for (var i = 0; i < setsUsedOfPkmn.length; ++i) {
-      var setDataRegex = new RegExp(setsUsedOfPkmn[i] + ".+");
-      var particularSet = setDataRegex.exec(pokemonData);
-      if (particularSet === null) { //There is no set, for whatever reason
-        console.error("Could not find a set for the given set name: " + setName);
-      }
-      pendingRet.push(particularSet[0]);
+    /* Contains the data about each pokemon which I found: */
+    var setData = [];
+    var length = setsForPokemon.length;
+    for (var i = 0; i < length; ++i ) {
+      /* Because the arrays in trainerTeam use the 1-based indexing which is used
+      * in the original text data (e.g. Muk1, Muk2, Muk3, Muk4), we subtract 1
+      * from the index values: */
+      setData[i] = pokemonSetsData[pkmnName][ setsForPokemon[i]-1 ];
     }
-    return pendingRet;
-  }
-
-  /* Toggles the parameter element's style.display property between "none" and
-   * "block" */
-  function toggleDisplay(elem) {
-    if (elem.style.display === "none") elem.style.display = "block";
-    else elem.style.display = "none";
-  }
-
-
-  /* Copy contents of output box */
-  function copyToClipBoard(elem){
-    var range = document.createRange();
-    range.selectNodeContents(elem);
-    var selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
+    return setData;
   }
 </script>
 </body>

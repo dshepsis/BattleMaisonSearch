@@ -237,8 +237,14 @@ function getIndices (values, indices) {
 let pokeDataObj = {};
 for (let i = 0; i < splitPokeData.length; ++i) {
   let pokeInfo = splitPokeData[i];
+  /* Get the Pokemon's Name and Species: */
+  let pokeName = pokeInfo[pokemonName];
+  let pokeSpecies = removeLastChar( pokeName );
+  let setNumber = Number(pokeName.charAt(pokeName.length - 1));
   /* The set object we will be adding to pokeDataObj: */
   let pokeSet = {
+    Species: pokeSpecies,
+    Set: setNumber,
     ID: Number(pokeInfo[idNumber]),
     /* Which group of ID's this set belongs to: */
     Group: howManyGroupsAhead(i),
@@ -247,9 +253,6 @@ for (let i = 0; i < splitPokeData.length; ++i) {
     Moves: getIndices(pokeInfo, moves),
     EVs: pokeInfo[evSpread]
   }
-  let pokeName = pokeInfo[pokemonName];
-  let pokeSpecies = removeLastChar( pokeName );
-  let setNumber = Number(pokeName.charAt(pokeName.length - 1));
   /* If this is the first set for this pokemon: */
   if (!pokeDataObj[pokeSpecies]) {
     let setArr = [];
@@ -263,4 +266,18 @@ for (let i = 0; i < splitPokeData.length; ++i) {
     pokeDataObj[pokeSpecies][setNumber - 1] = pokeSet;
   }
 }
-printResult(JSON.stringify(pokeDataObj));
+
+function toCamelCase(str) {
+  return str.replace(/\b\w/g, letter => letter.toUpperCase());
+}
+
+/* Formatted JSON, with 2-space tab: */
+var pkJSON = JSON.stringify(pokeDataObj, null, 2);
+
+/* Making Pokemon names capitalized: */
+pkJSON = pkJSON.replace(/("Species":\s*")([^"]+)(")/g, (match, g1, g2, g3) => g1 + toCamelCase(g2) + g3);
+
+/* Putting the array of moves onto 1 line for readability: */
+pkJSON = pkJSON.replace(/("Moves": )\[\s+("[^"]+",)\s+("[^"]+",)\s+("[^"]+",)\s+("[^"]+")\s+/g, "$1[$2 $3 $4 $5")
+
+printResult(pkJSON);

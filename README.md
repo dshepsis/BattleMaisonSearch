@@ -93,6 +93,7 @@ The data files are 3 separate JSON files, which each represent different data.
   }
 ],
 ```
+Note that the "Species" and "Set" fields are redundant. They are mainly there to make parsing easier, as well as allow the possibility for results to be mixed between multiple species of Pokemon (though this feature is not yet used).
 
 The searching function is run any time the values in either user-input field are changed. This means that with every character the user types or deletes text from the Pokemon or Trainer name fields, a search is run (unless either input field as completely empty).
 

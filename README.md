@@ -111,4 +111,4 @@ We then query the Pokemon-sets object with the entered Pokemon name to yield an 
 
 Once this is done, said new array will contain only the data for sets that the given trainer actually uses. That array is then parsed out into a table, which is presented to the user.
 
-For more information, read the un-minified JavaScript files in the js folder.
+For more information, read the JavaScript files in the js folder.

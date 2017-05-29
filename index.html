@@ -7,76 +7,27 @@
   <title>Battle Maison Search Engine</title>
   <meta name="description" content="Battle Maison Search">
   <meta name="author" content="Daniel Shepsis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- General interface Styling: -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+  <!--Script for loading JSON resources: -->
+  <script src="js/LoadResources.js" async></script>
+  <!--Script for searching through a database of Battle Maison Trainers and Pokemon: -->
+  <script src="js/MaisonSearch.js" async></script>
 </head>
-<style>
-body {
-  background-color: #eeeef3;
-  margin-left:10%;
-  margin-top: 5%;
-}
-p, table, tr, td, li, pre, h1, h2, h3, h4, h5, h6, input {
-  font-family: sans-serif;
-  font-size: 20px;
-  color: #333;
-}
-h1 {
-  font-size: 2em;
-}
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.5em;
-  }
-}
-pre {
-  font-family: monospace;
-}
-
-.small-link{
-  font-size: .3em;
-}
-
-#output {
-  border: 1px solid Gray;
-}
-#output > tr {
-  border: 1px dashed Gray;
-}
-#output > tr:nth-child(odd) {
-  background-color: #e8e8e8;
-}
-#output > tr:nth-child(even) {
-  background-color: #f0f0f0;
-}
-
-#noscriptContent {
-  border: 1px dashed red;
-  background-color: #fee;
-  padding: 1em;
-  color: #c00;
-  display: table;
-}
-#noscriptContent p {
-  color: #c00;
-}
-#noscriptContent > p:first-child {
-  margin-top: 0px;
-}
-#noscriptContent > p:last-child {
-  margin-bottom: 0px;
-}
-
-</style>
 
 <body>
   <h1>
-    Pokemon XY/ORAS Battle Maison Search Engine
+    Battle Maison Search Engine
+    <a href="https://github.com/dshepsis/BattleMaisonSearch" class="small-link">Go to the GitHub Repo</a>
   </h1>
   <p>
-    This is a simple search engine for finding data about trainers and Pokemon in the XY and ORAS Battle Maisons
-  <p>
+    This is a simple search engine for finding data about trainers and Pokemon in the XY and ORAS Battle Maisons.
+  </p>
 
-  <input type="text" id="trainer" placeholder="Trainer Name" oninput="search()" onpropertychange="search()" />
-  <input type="text" id="pokemon" placeholder="Pokemon" oninput="search()" onpropertychange="search()" />
+  <input type="text" id="trainer" placeholder="Trainer Name" />
+  <input type="text" id="pokemon" placeholder="Pokemon" />
 
   <noscript>
     <div id="noscriptContent">
@@ -85,157 +36,27 @@ pre {
     </div>
   </noscript>
 
-  <table id="output">
-
+  <table id="output" style="display: none;" class="loading">
+    <tr><th>Loading!</th></tr>
+    <tr>
+      <td>Sorry, resources are still loading. Your query will be executed as soon as they are finished.</td>
+    </tr>
   </table>
 
-<script>
-  "use strict";
+  <p>
+    Enter "<b>*</b>" for the trainer name to get every set for the given Pokemon.
+  </p>
+  <p>
+    Click on a result to toggle a highlight!
+  </p>
 
-  /* A function for acquiring text file contents from a server: */
-  function AJAXTextLoader(responseCallBack, dataURL) {
-    var httpRequest = new XMLHttpRequest();
-    httpRequest.onreadystatechange = function() {
-      if (httpRequest.readyState === XMLHttpRequest.DONE) {
-        if (httpRequest.status === 200) { //Code for "Good"
-          responseCallBack(httpRequest.responseText);
-        } else {
-          console.error("AJAX attempt failed. Error code: " + httpRequest.status);
-        }
-      }
-    }
-    httpRequest.open("GET", dataURL);
-    httpRequest.send();
-  }
-
-  /* Here we use AJAX to acquire all necessary data for search: */
-  var pokemonData; //Data about Pokemon sets
-  AJAXTextLoader(
-      function(responseText){
-        pokemonData = responseText;
-        console.log("Pokemon Sets Ready!");
-      },
-      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonPokemon.txt"
-  );
-  var trainerData; //Data about which sets each trainer uses
-  AJAXTextLoader(
-      function(responseText){
-        trainerData = responseText;
-        console.log("Trainer Data Ready!");
-      },
-      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonTrainers.txt"
-  );
-  var trainerNameTranslation; //Trainer name translations from ORAS to XY
-  AJAXTextLoader(
-      function(responseText){ /* Parse through text file right away: */
-        var nameText = responseText;
-        trainerNameTranslation = {};
-        var nameRegex = /^([^,\n]+),([^,\n]+)$/gm
-        var nameMatch = nameRegex.exec(nameText);
-        while (nameMatch != null) {
-          /* Setting up a name map from ORAS names to XY names: */
-          trainerNameTranslation[nameMatch[2].toLowerCase()] = nameMatch[1].toLowerCase();
-          var nameMatch = nameRegex.exec(nameText);
-        }
-        console.log("Name Translations Ready!");
-      },
-      "https://raw.githubusercontent.com/dshepsis/BattleMaisonSearch/master/data/battleMaisonTrainerNamesXy-Oras"
-  );
-
- /* Getting the form elements so that they can be quickly queried for their
-  * contents: */
-  var trainerForm = document.getElementById("trainer");
-  var pokemonForm = document.getElementById("pokemon");
-  var resultsTable = document.getElementById("output");
-  function search () {
-    var trainerName = trainerForm.value;
-    if (trainerName === "") return;
-    var pokemonName = pokemonForm.value;
-    if (pokemonName === "") return;
-    var results = pkSearch(trainerName, pokemonName);
-    console.log(results);
-
-
-    /* First, clear out the table: */
-    while (resultsTable.firstChild) {
-      resultsTable.removeChild(resultsTable.firstChild);
-    }
-    /* Then add new rows: */
-    for (var i = 0;  i < results.length; ++i) {
-      var trEle = document.createElement("tr"); //Table Row
-      var tdEle = document.createElement("tr"); //Table Data
-      /* Getting text from results: */
-      var textNode = document.createTextNode(results[i]);
-      tdEle.appendChild(textNode) //Putting text in data cell
-      trEle.appendChild(tdEle); //Putting data cell in row
-      resultsTable.appendChild(trEle);
-    }
-  }
-
-  function pkSearch (trainerName, pkmnName) {
-    /* Start by looking for the trainer data corresponding to the parameter
-     * trainer name */
-    var tregex = new RegExp(trainerName + " - (.+)", "i");
-    var tmatch = tregex.exec(trainerData);
-    if (tmatch === null) { //If the user is using ORAS names:
-      var tregex = new RegExp(trainerNameTranslation[trainerName.toLowerCase()] + " - (.+)", "i");
-      tmatch = tregex.exec(trainerData);
-      if (tmatch === null) { //If we still don't find it, quit
-        console.error("Bad Trainer Name!");
-        return false;
-      }
-    }
-    var setsUsedByTrainer = tmatch[1];
-
-    /* Then look for which set in particular is being used: */
-    var setsForGivenPokemonRegex = new RegExp("\\b" + pkmnName + "\\d\\b", "gi");
-    /* THe result will be the pokemon's name plus a number 1-4 indicating which
-     * actual set(s) is(are) being used by the parameter trainer: */
-    var setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
-    if (setResult === null) {
-      console.error("Trainer doesn't use that pokemon!");
-      return false;
-    }
-    /* Get a list of all sets that the trainer uses for the given pokemon.
-     * note that while most trainers only use 1 set for any given pokemon,
-     * other can use multiple, sometimes all 4: */
-    var setsUsedOfPkmn = [];
-    while (setResult != null) {
-      console.log("184\t" + setResult[0]);
-      setsUsedOfPkmn.push(setResult[0]);
-      setResult = setsForGivenPokemonRegex.exec(setsUsedByTrainer);
-    }
-    console.log(setsUsedOfPkmn);
-
-    /* Then find the actual set data for this pokemon: */
-    var pendingRet = [];
-    for (var i = 0; i < setsUsedOfPkmn.length; ++i) {
-      var setDataRegex = new RegExp(setsUsedOfPkmn[i] + ".+");
-      var particularSet = setDataRegex.exec(pokemonData);
-      if (particularSet === null) { //There is no set, for whatever reason
-        console.error("Could not find a set for the given set name: " + setName);
-      }
-      pendingRet.push(particularSet[0]);
-    }
-    return pendingRet;
-  }
-
-  /* Toggles the parameter element's style.display property between "none" and
-   * "block" */
-  function toggleDisplay(elem) {
-    if (elem.style.display === "none") elem.style.display = "block";
-    else elem.style.display = "none";
-  }
-
-
-  /* Copy contents of output box */
-  function copyToClipBoard(elem){
-    var range = document.createRange();
-    range.selectNodeContents(elem);
-    var selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-  }
-</script>
+  <script>
+    /* This is here so that the loading message can be hidden by-default. This
+     * prevents users who have JavaScript disabled from seeing the loading
+     * message, which would be confusing, while still making sure it appears
+     * as soon as possible for users who do have JS enabled, but have slow
+     * internet. */
+    document.getElementById("output").style.display = "table";
+  </script>
 </body>
 </html>

@@ -1,0 +1,100 @@
+body {
+  background-color: #eeeef3;
+  margin-left:10%;
+  margin-top: 5%;
+}
+p, table, tr, td, li, pre, h1, h2, h3, h4, h5, h6, input {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+h1 {
+  font-size: 2em;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  input {
+    height: 1.5em;
+    font-size: 1.5em;
+    max-width: 45%;
+    margin-right: 2.5%;
+  }
+}
+pre {
+  font-family: monospace;
+}
+
+.small-link{
+  font-size: .3em;
+}
+
+/* Output Table Styling: */
+#output {
+  border: 1px solid Gray;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+#output td, #output th {
+  padding: 5px;
+  border-right: 1px dashed #aaa;
+  text-align: center;
+}
+#output tr:nth-child(odd) {
+  background-color: #e8e8e8; /* Medium gray color */
+}
+#output tr:nth-child(even) {
+  background-color: #f0f0f0; /* Lighter gray */
+}
+
+/* If the table contains search results, capitalize data entries: */
+#output.search-results {
+  text-transform: capitalize;
+}
+/* If a result was clicked on and highlighted, give it a green background: */
+#output tr.result-selected {
+  background-color: #cfc; /* Light green */
+}
+
+/* If the loading message is shown, make the table yellow: */
+#output.loading {
+  border: 1px solid Gold;
+}
+#output.loading tr:nth-child(odd) {
+  background-color: #ffb; /* Light yellow */
+}
+#output.loading tr:nth-child(even) {
+  background-color: #ffffd8; /* Lighter yellow */
+}
+
+/* If there's an error, make the table pink with a red border: */
+#output.search-error {
+  border: 1px solid DarkRed;
+}
+#output.search-error tr:nth-child(odd) {
+  background-color: #fcc; /* Pink */
+}
+#output.search-error tr:nth-child(even) {
+  background-color: #fdd; /* Lighter pink */
+}
+
+/* NoScript Styling, for the element which shows up if the user has scripts
+ * disabled: */
+#noscriptContent {
+  border: 1px dashed red;
+  background-color: #fee; /* Very light pink */
+  padding: 1em;
+  margin: 10px 0;
+  color: #c00; /* Bright red */
+  display: table;
+}
+#noscriptContent p {
+  color: #c00;
+}
+#noscriptContent > p:first-child {
+  margin-top: 0px;
+}
+#noscriptContent > p:last-child {
+  margin-bottom: 0px;
+}

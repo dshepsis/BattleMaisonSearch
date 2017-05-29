@@ -1,5 +1,5 @@
 body {
-  background-color: #eeeef3;
+  background-color: #eeeef3; /* Very-slightly-bluish light-gray */
   margin-left:10%;
   margin-top: 5%;
 }
@@ -22,10 +22,6 @@ h1 {
     margin-right: 2.5%;
   }
 }
-pre {
-  font-family: monospace;
-}
-
 .small-link{
   font-size: .3em;
 }

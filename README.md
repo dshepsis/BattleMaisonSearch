@@ -78,8 +78,6 @@ The data files are 3 separate JSON files, which each represent different data.
   {
     "Species": "Omanyte",
     "Set": 1,
-    "ID": 52,
-    "Group": 1,
     "Nature": "bold",
     "Item": "shell bell",
     "Moves": ["brine", "ancientpower", "protect", "shell smash"],
@@ -88,8 +86,6 @@ The data files are 3 separate JSON files, which each represent different data.
   {
     "Species": "Omanyte",
     "Set": 2,
-    "ID": 118,
-    "Group": 1,
     "Nature": "modest",
     "Item": "rindo berry",
     "Moves": ["ice beam", "rock blast", "mud shot", "surf"],
@@ -97,7 +93,6 @@ The data files are 3 separate JSON files, which each represent different data.
   }
 ],
 ```
-Note that the "ID" and "Group" fields are metadata, and are not relevant to gameplay. Thus, they are not presented to the user.
 
 The searching function is run any time the values in either user-input field are changed. This means that with every character the user types or deletes text from the Pokemon or Trainer name fields, a search is run (unless either input field as completely empty).
 
